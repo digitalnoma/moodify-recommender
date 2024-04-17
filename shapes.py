@@ -2,7 +2,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 from scipy.spatial.distance import cdist
 import plotly.graph_objects as go
 
-
 class MusicOnTrajectory:
     def __init__(self, df, shape):
         self.df = df
@@ -10,7 +9,10 @@ class MusicOnTrajectory:
 
     def run(self):
       closest_songs = self.shape.find_closest_songs(self.df)
-      self.shape.plot_closest_points(closest_songs)
+      fig = self.shape.plot_closest_points(closest_songs)
+
+      print("Figure created:", fig)
+      return fig
 
 class Line:
     def __init__(self, point):
@@ -76,11 +78,12 @@ class Line:
             yaxis_title='Arousal',
             title='Valence-Arousal Graph'
         )
-        fig.show()
 
         print("--- Closest tracks to trajectory ---")
         for i, track in enumerate(closest_songs['track'], start=1):
             print(f"{i}: {track}")
+
+        return fig
 
 class Circle:
     def __init__(self, point):
@@ -149,13 +152,13 @@ class Circle:
             xaxis_title='Valence',
             yaxis_title='Arousal',
             title='Valence-Arousal Graph')
-
-        fig.show()
-
+        
         print("--- Closest tracks to trajectory ---")
         print(f"{1}: {input['track'].values[0]}")
         for i, track in enumerate(closest_songs['track'], start=2):
             print(f"{i}: {track}")
+
+        return fig
 
 class Triangle:
     def __init__(self, point):
@@ -218,12 +221,12 @@ class Triangle:
             yaxis_title='Arousal',
             title='Valence-Arousal Graph')
 
-        fig.show()
-
         print("--- Closest tracks to trajectory ---")
         print(f"{1}: {input['track'].values[0]}")
         for i, track in enumerate(closest_songs['track'], start=2):
             print(f"{i}: {track}")
+
+        return fig
 
 class Parabola:
     def __init__(self, point):
@@ -283,10 +286,10 @@ class Parabola:
             yaxis_title='Arousal',
             title='Valence-Arousal Graph')
 
-        fig.show()
-
         print("--- Closest tracks to trajectory ---")
         print(f"{1}: {input_point['track'].values[0]}")
         for i, track in enumerate(closest_songs['track'], start=2):
             print(f"{i}: {track}")
+
+        return fig
 

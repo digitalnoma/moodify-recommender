@@ -1,4 +1,3 @@
-import streamlit as st
 import librosa
 import numpy as np
 import pandas as pd
@@ -6,6 +5,7 @@ import math
 import altair as alt
 import os
 import torch
+import streamlit as st
 import torch.nn as nn
 import torch.nn.functional as F
 from shapes import MusicOnTrajectory, Line, Circle, Triangle, Parabola
@@ -92,9 +92,7 @@ def extract_features(audio_path, sample_rate=44100):
     mfcc = librosa.feature.mfcc(y=wave, sr=sr, n_mfcc=20, n_fft=2048, hop_length=hop_length, win_length=win_length)
     chroma = librosa.feature.chroma_stft(y=wave, sr=sr, n_fft=2048, hop_length=hop_length)
     contrast = librosa.feature.spectral_contrast(y=wave, sr=sr, n_fft=2048, hop_length=hop_length)
-
     return np.concatenate((mfcc, chroma, contrast), axis=0)
-
 
 def predict(model, features):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -300,7 +298,7 @@ def extract_features(audio_path):
     features.extend([np.mean(harmony), np.var(harmony)])
     percussive = librosa.effects.percussive(y)
     features.extend([np.mean(percussive), np.var(percussive)])
-    tempo = librosa.feature.rhythm.tempo(y=y, sr=sr, aggregate=None)
+    tempo = librosa.beat.tempo(y=y, sr=sr, aggregate=None)
     features.append(np.mean(tempo))
     mfccs = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=20)
     for mfcc in mfccs:
@@ -309,41 +307,157 @@ def extract_features(audio_path):
     return np.array(features)
 
 # LOAD DATASET
-df = pd.read_csv("spotify_va.csv")
+spotify_va = pd.read_csv("spotify_va.csv")
+
+from PIL import Image
+import base64
+import os
+
+# Function to convert image to base64
+def get_image_as_base64(path):
+    with open(path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode()
+
+# List your image paths
+image_paths = ["./assets/circle.png", "./assets/line.png", "./assets/parabola.png", "./assets/triangle.png"]
+
+# Verify images exist and convert to base64
+images_base64 = []
+for img_path in image_paths:
+    if os.path.isfile(img_path):
+        images_base64.append(get_image_as_base64(img_path))
+    else:
+        st.error(f"Image {img_path} not found in the directory.")
+        st.stop()
+
+model_path_valence = 'model_valence.pth'
+model_path_arousal = 'model_arousal.pth'
+
+def filter_genre(df, genre):
+  if genre == "blues" or genre == "jazz":
+    filtered_df = df[df["genre"] == "blues"]
+  elif genre == "raggae" or genre == "classical":
+    filtered_df = df
+  else:
+    filtered_df = df[df["genre"] == genre]
+  return filtered_df
+
+# Function to display a 2x2 grid of clickable images
+def display_images(genre, valence, arousal, color, spotify_va):
+    print(f'displayed images!')
+    # Each row has 2 columns, so we create two rows
+    row1_cols = st.columns(2)
+    row2_cols = st.columns(2)
+
+    if 'image_clicked' not in st.session_state:
+        st.session_state.image_clicked = [False, False, False, False]
+
+    idx = 0
+    for col in row1_cols + row2_cols:
+        with col:
+            button_key = f'click_{idx + 1}'
+            if st.button('Click', key=button_key):
+                st.session_state.image_clicked[idx] = True
+            st.image(image_paths[idx], use_column_width=True)
+            idx += 1
+
+    # Check if any image was clicked
+    for index, clicked in enumerate(st.session_state['image_clicked']):
+        if clicked:
+            st.write(f"Image {index+1} clicked!")
+            shape = image_paths[index] 
+            new_row = {
+                'spotify_id': 'new_id',
+                'artist': 'New Artist',
+                'track': None,
+                'file_path': None,
+                'genre': genre,
+                'valence': valence,
+                'arousal': arousal,
+                'colour': color
+            }
+            new_row_df = pd.DataFrame([new_row])  # Convert the new row into a DataFrame
+
+            # Add the new row to the DataFrame
+            spotify_va = pd.concat([spotify_va, new_row_df], ignore_index=True)
+            filtered_df = filter_genre(spotify_va, genre)
+            point = (valence, arousal)
+
+            try:
+                if "circle" in shape:
+                    c= Circle(point)
+                    t1 = MusicOnTrajectory(filtered_df, c)
 
 
+                elif "line" in shape:
+                    l = Line(point) 
+                    t1 = MusicOnTrajectory(filtered_df, l)
+
+                elif "parabola" in shape:
+                    p = Parabola(point)
+                    t1 = MusicOnTrajectory(filtered_df, p)
+
+                else:
+                    t = Triangle(point) 
+                    t1 = MusicOnTrajectory(filtered_df, t)
+
+                print("About to call run():")
+                try:
+                    fig = t1.run()
+                    print("Run method completed, figure returned.")  # This should be printed if run() is executed
+                    if fig:
+                        st.plotly_chart(fig)
+                    else:
+                        print('No figure was created.')
+                except Exception as e:
+                    print(f"An error occurred: {e}")
+
+            except Exception as e:
+                print(f"An error occurred: {e}")
 
 def main():
     st.markdown("<h2 style='text-align: center;'>🎧 Moodify</h2>", unsafe_allow_html=True)
 
-    # Display drag-n-drop zone for audio files in the sidebar
-    with st.sidebar:
-        st.markdown("<h1 style='text-align: left;'>🎧 Moodify</h1>", unsafe_allow_html=True)
-        audio_file = st.file_uploader("Please upload an audio file (MP3)", type=["mp3"])
+    audio_file = st.file_uploader("Please upload an audio file (MP3)", type=["mp3"])
 
     # If an audio file is uploaded, display an audio player
     if audio_file is not None:
-        with open('temp_audio.mp3', 'wb') as f:
+        with open('audio_upload.mp3', 'wb') as f:
             f.write(audio_file.read())
 
         # Determine audio file path
-        temp_audio_path = os.path.abspath('temp_audio.mp3')
-
-        # TODO: Display the audio visualizer
+        temp_audio_path = os.path.abspath('audio_upload.mp3')
 
         # Display the audio player for the uploaded file
-        # Get the file name without the extension
-        audio_title = audio_file.name.split(".")[0]
+        audio_title = audio_file.name.split(".")[0]  
         st.subheader(f"Audio Track: {audio_title}")
         st.audio(temp_audio_path, format='audio/mp3')
 
-        # Display the spectrogram for the uploaded file
-        st.subheader("Spectrogram:")
-        st.write("Generating Spectrogram...")
-        audio_to_spectrogram(temp_audio_path)
-        valence, arousal = analyze_audio(temp_audio_path, model)
+        predictor = Predictor(model_path_valence, model_path_arousal)
+        valence, arousal = predictor.predict(temp_audio_path)
+        print(f"Valence: {valence}, Arousal: {arousal}")
+        color = get_colormap(valence, arousal)
+        print(f'Emotion Detected: {color}')
 
+        features = extract_features(temp_audio_path)
+        feature_values = torch.tensor(features, dtype=torch.float32).unsqueeze(0)
 
-# Run view.py
+        model.eval()
+        with torch.no_grad():
+            outputs = model(feature_values)
+            predicted_genre_index = outputs.argmax(dim=1).item()
+
+        genre_mapping = {0: 'blues', 1: 'classical', 2: 'country', 3: 'disco', 4: 'hiphop',
+                        5: 'jazz', 6: 'metal', 7: 'pop', 8: 'reggae', 9: 'rock'}
+
+        genre = genre_mapping[predicted_genre_index]
+        
+        st.write(f"The predicted genre of the song is: {genre}")
+
+        # Button to show the modal
+        if st.button('Pick a Shape'):
+            display_images(genre, valence, arousal, color, spotify_va)
+
+# Run runner.py
 if __name__ == "__main__":
     main()
