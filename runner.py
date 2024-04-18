@@ -215,6 +215,7 @@ def display_images(genre, valence, arousal, color, spotify_va):
                 print("run() method completed, plotly.go figure returned.")
 
                 if fig:
+                    st.subheader('Valence-Arousal Graph')
                     st.plotly_chart(fig)
                     inject_scroll_to_bottom() # Scroll to bottom after rendering
                 else:
@@ -262,7 +263,7 @@ def main():
         predictor = Predictor(model_path_valence, model_path_arousal)
 
         # Progress bar
-        progress_text = "Emotion detection in progress. Please wait."
+        progress_text = "Emotion detection and genre prediction in progress. Please wait a couple of seconds."
         my_bar = st.progress(0, text=progress_text)
 
         # Emulating progress
@@ -296,9 +297,22 @@ def main():
 
     # If a file has been processed, offer shape selection
     if 'audio_processed' in st.session_state:
-        st.write("Now, pick a shape!")
-        st.write("Scroll down to view your selected shape projection")
+        st.subheader("Now, pick a shape!")
+        st.write("Please scroll down to view your selection")
         display_images(st.session_state['genre'], st.session_state['valence'], st.session_state['arousal'], st.session_state['color'], spotify_va)
+        
+        # Let streamlit re-rendering stabilize first, then:
+        # Add a delay and then scroll to the bottom of the page
+        # Still buggy, non-trivial
+        # st.markdown("""
+        # <script>
+        # setTimeout(function() {
+        #     const elements = document.querySelectorAll('.element-container');
+        #     const lastElement = elements[elements.length - 1];
+        #     lastElement.scrollIntoView({ behavior: 'smooth' });
+        # }, 5000); // Delay of 1000 milliseconds
+        # </script>
+        # """, unsafe_allow_html=True)
 
 # Run runner.py
 if __name__ == "__main__":
