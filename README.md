@@ -1,7 +1,5 @@
-<div align="center">
-# :headphones: Moodify
+# Moodify :headphones:
 [Live Demo]() | [Paper]()
-</div>
 
 ## Overview
 Moodify is a web-based application designed to analyze audio files to detect the mood conveyed by the music and predict its genre. Utilizing advanced machine learning models, Moodify extracts audio features and classifies them into predefined categories of emotions and musical genres, providing a user-friendly interface for uploading audio, visualizing emotion through a valence-arousal plot, and identifying the music genre.
