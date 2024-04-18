@@ -65,7 +65,7 @@ def normalize_value(value):
 
 # LOAD GENRE PREDICTION
 model = MusicGenreClassifier(input_size=57, num_classes=10)
-model.load_state_dict(torch.load('./model_checkpoints/genre_classifier_model.pth'))
+model.load_state_dict(torch.load('genre_classifier_model.pth'))
 model.eval()
 
 def extract_features(audio_path):
@@ -119,8 +119,8 @@ for img_path in image_paths:
         st.stop()
 
 # Define Valence Arousal Models
-model_path_valence = './model_checkpoints/model_valence.pth'
-model_path_arousal = './model_checkpoints/model_arousal.pth'
+model_path_valence = 'model_valence.pth'
+model_path_arousal = 'model_arousal.pth'
 
 def filter_genre(df, genre):
   if genre == "blues" or genre == "jazz":
