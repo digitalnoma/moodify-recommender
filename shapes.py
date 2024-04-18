@@ -137,7 +137,7 @@ class Circle:
             showlegend=False
         ))
 
-        input = df[(df['valence'] == self.x) & (df['arousal'] == self.y)]
+        input = closest_songs[(closest_songs['valence'] == self.x) & (closest_songs['arousal'] == self.y)]
         fig.add_trace(go.Scatter(
           x=[self.x],
           y=[self.y],
@@ -203,7 +203,7 @@ class Triangle:
             showlegend=False
         ))
 
-        input = df[(df['valence'] == self.x) & (df['arousal'] == self.y)]
+        input = closest_songs[(closest_songs['valence'] == self.x) & (closest_songs['arousal'] == self.y)]
         fig.add_trace(go.Scatter(
           x=[self.x],
           y=[self.y],
@@ -276,7 +276,7 @@ class Parabola:
             showlegend=False
         ))
 
-        input_point = df[(df['valence'] == self.x) & (df['arousal'] == self.y)]
+        input_point = closest_songs[(closest_songs['valence'] == self.x) & (closest_songs['arousal'] == self.y)]
         fig.add_trace(go.Scatter(
             x=[self.x],
             y=[self.y],

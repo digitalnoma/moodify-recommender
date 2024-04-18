@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import math
 import altair as alt
+import time
 import os
 import torch
 import streamlit as st
@@ -364,6 +365,15 @@ def display_images(genre, valence, arousal, color, spotify_va):
     # Check if any image was clicked
     for index, clicked in enumerate(st.session_state['image_clicked']):
         if clicked:
+            # Reset the clicked states for all images
+            st.session_state.image_clicked = [False] * len(st.session_state.image_clicked)
+            # Clear the previous output (if any)
+            if 'plot_placeholder' in st.session_state:
+                st.session_state.plot_placeholder.empty()
+
+            # Store the new plot placeholder
+            st.session_state.plot_placeholder = st.empty()
+
             st.write(f"Image {index+1} clicked!")
             shape = image_paths[index].split('/')[-1].split('.')[0]
 
@@ -434,7 +444,17 @@ def main():
         st.subheader(f"Audio Track: {audio_title}")
         st.audio(temp_audio_path, format='audio/mp3')
 
+        # RUN PREDICTOR
         predictor = Predictor(model_path_valence, model_path_arousal)
+        # Progress bar
+        progress_text = "Emotion detection in progress. Please wait."
+        my_bar = st.progress(0, text=progress_text)
+
+        # Emulating progress
+        for percent_complete in range(100):
+            time.sleep(0.01)  # Simulate a time-consuming task
+            my_bar.progress(percent_complete + 1, text=progress_text)
+
         valence, arousal = predictor.predict(temp_audio_path)
         print(f"Valence: {valence}, Arousal: {arousal}")
         color = get_colormap(valence, arousal)
@@ -454,9 +474,10 @@ def main():
         genre = genre_mapping[predicted_genre_index]
         
         st.subheader(f"The predicted genre of the song is: {genre}")
+        my_bar.empty()
 
         # Button to show the modal
-        st.write("Pick a Shape")
+        st.write("Next, pick a shape!")
         display_images(genre, valence, arousal, color, spotify_va)
 
 # Run runner.py
