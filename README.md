@@ -1,5 +1,5 @@
 # Moodify :headphones:
-[Live Demo]() | [Paper](https://github.com/digitalnoma/moodify-recommender/blob/main/assets/50_038_CDS_Group_08.pdf) | [Main Assets](https://www.dropbox.com/scl/fo/gdj3c7clw9egnjyt9iu36/AN_fm12u-WLkyOGWqWRm7Xo?rlkey=7v28k1ef6fvw0icu6t1070rb4&dl=0)
+[Live Demo]() | [Paper](https://github.com/digitalnoma/moodify-recommender/blob/main/assets/50_038_CDS_Group_08.pdf)
 
 ## Overview
 Moodify is a web-based application designed to analyze audio files to detect the mood conveyed by the music and predict its genre. Utilizing advanced machine learning models, Moodify extracts audio features and classifies them into predefined categories of emotions and musical genres, providing a user-friendly interface for uploading audio, visualizing emotion through a valence-arousal plot, and identifying the music genre.
@@ -27,7 +27,11 @@ Install all required dependencies by running:
 pip install -r requirements.txt
 ```
 
-### Step 4: Run the Application
+### Step 4: Install Main Assets
+Download the [following asset files](https://www.dropbox.com/scl/fo/gdj3c7clw9egnjyt9iu36/AN_fm12u-WLkyOGWqWRm7Xo?rlkey=7v28k1ef6fvw0icu6t1070rb4&dl=0) (and unzip spotify_audio)
+Add all downloaded assets into main/parent directory
+
+### Step 5: Run the Application
 Finally, launch the application using Streamlit:
 ```
 streamlit run runner.py
