@@ -7,6 +7,7 @@ import time
 import os
 import torch
 import streamlit as st
+import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from shapes import MusicOnTrajectory, Line, Circle, Triangle, Parabola
@@ -233,7 +234,6 @@ clustered_emotions = {'blue': ['Determined',
   'Peaceful',
   'Contemplative']}
 
-
 def get_colormap(valence, arousal):
     valence, arousal = normalize_value(valence), normalize_value(arousal)
     emotion = find_emotion(valence, arousal)
@@ -247,9 +247,6 @@ def normalize_value(value):
 
 
 # LOAD GENRE PREDICTION
-import torch
-import torch.nn as nn
-
 class MusicGenreClassifier(nn.Module):
     def __init__(self, input_size, num_classes):
         super(MusicGenreClassifier, self).__init__()
@@ -310,7 +307,6 @@ def extract_features(audio_path):
 # LOAD DATASET
 spotify_va = pd.read_csv("spotify_va.csv")
 
-from PIL import Image
 import base64
 import os
 
@@ -331,6 +327,7 @@ for img_path in image_paths:
         st.error(f"Image {img_path} not found in the directory.")
         st.stop()
 
+# VALENCE AROUSAL MODELS
 model_path_valence = 'model_valence.pth'
 model_path_arousal = 'model_arousal.pth'
 
@@ -387,10 +384,9 @@ def display_images(genre, valence, arousal, color, spotify_va):
                 'arousal': arousal,
                 'colour': color
             }
-            new_row_df = pd.DataFrame([new_row])  # Convert the new row into a DataFrame
 
             # Add the new row to the DataFrame
-            spotify_va = pd.concat([spotify_va, new_row_df], ignore_index=True)
+            spotify_va = spotify_va._append(new_row, ignore_index=True)
             filtered_df = filter_genre(spotify_va, genre)
             point = (valence, arousal)
 
@@ -415,11 +411,13 @@ def display_images(genre, valence, arousal, color, spotify_va):
                 print("About to call run():")
                 try:
                     fig = t1.run()
-                    print("Run method completed, figure returned.")  # This should be printed if run() is executed
+                    print("Run method completed, figure returned.")
+
                     if fig:
                         st.plotly_chart(fig)
                     else:
                         print('No figure was created.')
+
                 except Exception as e:
                     print(f"An error occurred: {e}")
 
@@ -477,7 +475,7 @@ def main():
         my_bar.empty()
 
         # Button to show the modal
-        st.write("Next, pick a shape!")
+        st.write("Now, pick a shape!")
         display_images(genre, valence, arousal, color, spotify_va)
 
 # Run runner.py

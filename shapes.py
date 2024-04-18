@@ -82,9 +82,9 @@ class Line:
             title='Valence-Arousal Graph'
         )
 
-        print("--- Closest tracks to trajectory ---")
-        for i, track in enumerate(closest_songs['track'], start=1):
-            print(f"{i}: {track}")
+        # print("--- Closest tracks to trajectory ---")
+        # for i, track in enumerate(closest_songs['track'], start=1):
+        #     print(f"{i}: {track}")
 
         return fig
 
@@ -159,10 +159,10 @@ class Circle:
             yaxis_title='Arousal',
             title='Valence-Arousal Graph')
         
-        print("--- Closest tracks to trajectory ---")
-        print(f"{1}: {input['track'].values[0]}")
-        for i, track in enumerate(closest_songs['track'], start=2):
-            print(f"{i}: {track}")
+        # print("--- Closest tracks to trajectory ---")
+        # print(f"{1}: {input['track'].values[0]}")
+        # for i, track in enumerate(closest_songs['track'], start=2):
+        #     print(f"{i}: {track}")
 
         return fig
 
@@ -229,10 +229,10 @@ class Triangle:
             yaxis_title='Arousal',
             title='Valence-Arousal Graph')
 
-        print("--- Closest tracks to trajectory ---")
-        print(f"{1}: {input['track'].values[0]}")
-        for i, track in enumerate(closest_songs['track'], start=2):
-            print(f"{i}: {track}")
+        # print("--- Closest tracks to trajectory ---")
+        # print(f"{1}: {input['track'].values[0]}")
+        # for i, track in enumerate(closest_songs['track'], start=2):
+        #     print(f"{i}: {track}")
 
         return fig
 
@@ -295,11 +295,12 @@ class Parabola:
             xaxis_title='Valence',
             yaxis_title='Arousal',
             title='Valence-Arousal Graph')
-
-        print("--- Closest tracks to trajectory ---")
-        print(f"{1}: {input_point['track'].values[0]}")
-        for i, track in enumerate(closest_songs['track'], start=2):
-            print(f"{i}: {track}")
-
+        
         return fig
+
+        # print("--- Closest tracks to trajectory ---")
+        # print(f"{1}: {input_point['track'].values[0]}")
+        # for i, track in enumerate(closest_songs['track'], start=2):
+        #     print(f"{i}: {track}")
+
 
