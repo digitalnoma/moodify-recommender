@@ -242,7 +242,7 @@ class Parabola:
         self.y = point[1]
         self.points = self.parabola_points()
 
-    def parabola_points(self, num_points=10, a=1, b=0, c=0, shift=5, scale=0.4):
+    def parabola_points(self, num_points=9, a=1, b=0, c=0, shift=5, scale=0.4):
         x = np.linspace(-5 + shift, 5 + shift, num_points)
         y = (a * (x - shift)**2 + b * (x - shift) + c) * scale
         return np.column_stack((x, y))

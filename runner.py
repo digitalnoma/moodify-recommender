@@ -452,7 +452,7 @@ def main():
 
         # Emulating progress
         for percent_complete in range(100):
-            time.sleep(0.01)  # Simulate a time-consuming task
+            time.sleep(0.01) 
             my_bar.progress(percent_complete + 1, text=progress_text)
 
         valence, arousal = predictor.predict(temp_audio_path)
