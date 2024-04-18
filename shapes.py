@@ -1,6 +1,7 @@
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy.spatial.distance import cdist
 import plotly.graph_objects as go
+import numpy as np
 
 class MusicOnTrajectory:
     def __init__(self, df, shape):
@@ -73,15 +74,17 @@ class Line:
             name='Best-Fit Line'
         ))
 
+        fig.update_traces(line=dict(color='white'))
+
         fig.update_layout(
             xaxis_title='Valence',
             yaxis_title='Arousal',
-            title='Valence-Arousal Graph'
+            title='Valence-Arousal Graph: Hover over each point for VA score and Track Title'
         )
 
-        print("--- Closest tracks to trajectory ---")
-        for i, track in enumerate(closest_songs['track'], start=1):
-            print(f"{i}: {track}")
+        # print("--- Closest tracks to trajectory ---")
+        # for i, track in enumerate(closest_songs['track'], start=1):
+        #     print(f"{i}: {track}")
 
         return fig
 
@@ -134,7 +137,7 @@ class Circle:
             showlegend=False
         ))
 
-        input = df[(df['valence'] == self.x) & (df['arousal'] == self.y)]
+        input = closest_songs[(closest_songs['valence'] == self.x) & (closest_songs['arousal'] == self.y)]
         fig.add_trace(go.Scatter(
           x=[self.x],
           y=[self.y],
@@ -148,15 +151,18 @@ class Circle:
 
         fig.add_trace(go.Scatter(x=self.x_circle, y=self.y_circle, mode='lines', line=dict(color='black'), name='Circle'))
 
+        fig.update_traces(line=dict(color='white'))
+
+
         fig.update_layout(
             xaxis_title='Valence',
             yaxis_title='Arousal',
-            title='Valence-Arousal Graph')
+            title='Valence-Arousal Graph: Hover over each point for VA score and Track Title')
         
-        print("--- Closest tracks to trajectory ---")
-        print(f"{1}: {input['track'].values[0]}")
-        for i, track in enumerate(closest_songs['track'], start=2):
-            print(f"{i}: {track}")
+        # print("--- Closest tracks to trajectory ---")
+        # print(f"{1}: {input['track'].values[0]}")
+        # for i, track in enumerate(closest_songs['track'], start=2):
+        #     print(f"{i}: {track}")
 
         return fig
 
@@ -197,7 +203,7 @@ class Triangle:
             showlegend=False
         ))
 
-        input = df[(df['valence'] == self.x) & (df['arousal'] == self.y)]
+        input = closest_songs[(closest_songs['valence'] == self.x) & (closest_songs['arousal'] == self.y)]
         fig.add_trace(go.Scatter(
           x=[self.x],
           y=[self.y],
@@ -216,15 +222,17 @@ class Triangle:
           name='Triangle')
         )
 
+        fig.update_traces(line=dict(color='white'))
+
         fig.update_layout(
             xaxis_title='Valence',
             yaxis_title='Arousal',
-            title='Valence-Arousal Graph')
+            title='Valence-Arousal Graph: Hover over each point for VA score and Track Title')
 
-        print("--- Closest tracks to trajectory ---")
-        print(f"{1}: {input['track'].values[0]}")
-        for i, track in enumerate(closest_songs['track'], start=2):
-            print(f"{i}: {track}")
+        # print("--- Closest tracks to trajectory ---")
+        # print(f"{1}: {input['track'].values[0]}")
+        # for i, track in enumerate(closest_songs['track'], start=2):
+        #     print(f"{i}: {track}")
 
         return fig
 
@@ -234,7 +242,7 @@ class Parabola:
         self.y = point[1]
         self.points = self.parabola_points()
 
-    def parabola_points(self, num_points=10, a=1, b=0, c=0, shift=5, scale=0.4):
+    def parabola_points(self, num_points=9, a=1, b=0, c=0, shift=5, scale=0.4):
         x = np.linspace(-5 + shift, 5 + shift, num_points)
         y = (a * (x - shift)**2 + b * (x - shift) + c) * scale
         return np.column_stack((x, y))
@@ -268,7 +276,7 @@ class Parabola:
             showlegend=False
         ))
 
-        input_point = df[(df['valence'] == self.x) & (df['arousal'] == self.y)]
+        input_point = closest_songs[(closest_songs['valence'] == self.x) & (closest_songs['arousal'] == self.y)]
         fig.add_trace(go.Scatter(
             x=[self.x],
             y=[self.y],
@@ -281,15 +289,18 @@ class Parabola:
 
         fig.add_trace(go.Scatter(x=self.points[:, 0], y=self.points[:, 1], mode='lines', line=dict(color='black'), name='Parabola'))
 
+        fig.update_traces(line=dict(color='white'))
+
         fig.update_layout(
             xaxis_title='Valence',
             yaxis_title='Arousal',
-            title='Valence-Arousal Graph')
-
-        print("--- Closest tracks to trajectory ---")
-        print(f"{1}: {input_point['track'].values[0]}")
-        for i, track in enumerate(closest_songs['track'], start=2):
-            print(f"{i}: {track}")
-
+            title='Valence-Arousal Graph: Hover over each point for VA score and Track Title')
+        
         return fig
+
+        # print("--- Closest tracks to trajectory ---")
+        # print(f"{1}: {input_point['track'].values[0]}")
+        # for i, track in enumerate(closest_songs['track'], start=2):
+        #     print(f"{i}: {track}")
+
 
