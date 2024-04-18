@@ -1,6 +1,7 @@
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy.spatial.distance import cdist
 import plotly.graph_objects as go
+import numpy as np
 
 class MusicOnTrajectory:
     def __init__(self, df, shape):
@@ -72,6 +73,8 @@ class Line:
             line=dict(color='black'),
             name='Best-Fit Line'
         ))
+
+        fig.update_traces(line=dict(color='white'))
 
         fig.update_layout(
             xaxis_title='Valence',
@@ -148,6 +151,9 @@ class Circle:
 
         fig.add_trace(go.Scatter(x=self.x_circle, y=self.y_circle, mode='lines', line=dict(color='black'), name='Circle'))
 
+        fig.update_traces(line=dict(color='white'))
+
+
         fig.update_layout(
             xaxis_title='Valence',
             yaxis_title='Arousal',
@@ -216,6 +222,8 @@ class Triangle:
           name='Triangle')
         )
 
+        fig.update_traces(line=dict(color='white'))
+
         fig.update_layout(
             xaxis_title='Valence',
             yaxis_title='Arousal',
@@ -280,6 +288,8 @@ class Parabola:
         ))
 
         fig.add_trace(go.Scatter(x=self.points[:, 0], y=self.points[:, 1], mode='lines', line=dict(color='black'), name='Parabola'))
+
+        fig.update_traces(line=dict(color='white'))
 
         fig.update_layout(
             xaxis_title='Valence',

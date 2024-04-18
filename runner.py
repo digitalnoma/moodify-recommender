@@ -365,7 +365,8 @@ def display_images(genre, valence, arousal, color, spotify_va):
     for index, clicked in enumerate(st.session_state['image_clicked']):
         if clicked:
             st.write(f"Image {index+1} clicked!")
-            shape = image_paths[index] 
+            shape = image_paths[index].split('/')[-1].split('.')[0]
+
             new_row = {
                 'spotify_id': 'new_id',
                 'artist': 'New Artist',
@@ -452,11 +453,11 @@ def main():
 
         genre = genre_mapping[predicted_genre_index]
         
-        st.write(f"The predicted genre of the song is: {genre}")
+        st.subheader(f"The predicted genre of the song is: {genre}")
 
         # Button to show the modal
-        if st.button('Pick a Shape'):
-            display_images(genre, valence, arousal, color, spotify_va)
+        st.write("Pick a Shape")
+        display_images(genre, valence, arousal, color, spotify_va)
 
 # Run runner.py
 if __name__ == "__main__":
