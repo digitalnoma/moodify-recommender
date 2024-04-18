@@ -153,7 +153,7 @@ def display_images(genre, valence, arousal, color, spotify_va):
                 # Extract the shape name from the image filename
                 shape = image_paths[idx].split('/')[-1].split('.')[0]
                 # Display the shape name as a title for each image
-                st.subheader(f"{shape.capitalize()} Plot")  # Use subheader for better visual separation
+                st.subheader(f"{shape.capitalize()} Projection")  # Use subheader for better visual separation
 
             with button_col:
                 button_key = f'click_{idx + 1}'
@@ -223,41 +223,14 @@ def display_images(genre, valence, arousal, color, spotify_va):
             except Exception as e:
                 print(f"An error occurred: {e}")
 
-def main():
-    st.markdown("<h2 style='text-align: center;'>🎧 Moodify</h2>", unsafe_allow_html=True)
+def save_upload(uploadedFile):
+    with open('audio_upload.mp3', 'wb') as f:
+            f.write(uploadedFile.read())
 
-    audio_file = st.file_uploader("Please upload an audio file (MP3)", type=["mp3"])
+    # Determine audio file path
+    return os.path.abspath('audio_upload.mp3')
 
-    # If an audio file is uploaded, display an audio player
-    if audio_file is not None:
-        with open('audio_upload.mp3', 'wb') as f:
-            f.write(audio_file.read())
-
-        # Determine audio file path
-        temp_audio_path = os.path.abspath('audio_upload.mp3')
-
-        # Display the audio player for the uploaded file
-        audio_title = audio_file.name.split(".")[0]  
-        st.subheader(f"Audio Track: {audio_title}")
-        st.audio(temp_audio_path, format='audio/mp3')
-
-        # RUN PREDICTOR
-        predictor = Predictor(model_path_valence, model_path_arousal)
-        # Progress bar
-        progress_text = "Emotion detection in progress. Please wait."
-        my_bar = st.progress(0, text=progress_text)
-
-        # Emulating progress
-        for percent_complete in range(100):
-            time.sleep(0.01) 
-            my_bar.progress(percent_complete + 1, text=progress_text)
-
-        valence, arousal = predictor.predict(temp_audio_path)
-        print(f"Valence: {valence}, Arousal: {arousal}")
-        color = get_colormap(valence, arousal)
-        print(f'Emotion Detected: {color}')
-
-        features = extract_features(temp_audio_path)
+def predict_genre(model, features):
         feature_values = torch.tensor(features, dtype=torch.float32).unsqueeze(0)
 
         model.eval()
@@ -268,13 +241,64 @@ def main():
         genre_mapping = {0: 'blues', 1: 'classical', 2: 'country', 3: 'disco', 4: 'hiphop',
                         5: 'jazz', 6: 'metal', 7: 'pop', 8: 'reggae', 9: 'rock'}
 
-        genre = genre_mapping[predicted_genre_index]
+        return genre_mapping[predicted_genre_index]
+
+def main():
+    st.markdown("<h2 style='text-align: center;'>🎧 Moodify</h2>", unsafe_allow_html=True)
+
+    audio_file = st.file_uploader("Please upload an audio file (MP3)", type=["mp3"])
+
+    # If an audio file is uploaded, display an audio player
+    if audio_file is not None and 'audio_processed' not in st.session_state:
+        # Save audio file into a temporary file
+        temp_audio_path = save_upload(audio_file)
         
-        st.subheader(f"The predicted genre of the song is: {genre}")
+        # Display the audio player for the uploaded file
+        audio_title = audio_file.name.split(".")[0]  
+        st.subheader(f"Audio Track: {audio_title}")
+        st.audio(temp_audio_path, format='audio/mp3')
+
+        # Initialise Predictor Object
+        predictor = Predictor(model_path_valence, model_path_arousal)
+
+        # Progress bar
+        progress_text = "Emotion detection in progress. Please wait."
+        my_bar = st.progress(0, text=progress_text)
+
+        # Emulating progress
+        for percent_complete in range(100):
+            time.sleep(0.1) 
+            my_bar.progress(percent_complete + 1, text=progress_text)
+
+        # Run emotion detection
+        predictor = Predictor(model_path_valence, model_path_arousal)
+        valence, arousal = predictor.predict(temp_audio_path)
+        color = get_colormap(valence, arousal)
+
+        print(f"Valence: {valence}, Arousal: {arousal}")
+        print(f'Emotion Detected: {color}')
+
+        features = extract_features(temp_audio_path)
+        predicted_genre = predict_genre(model, features)
+        
+        # Store the results in session state
+        st.session_state['audio_processed'] = True
+        st.session_state['valence'] = valence
+        st.session_state['arousal'] = arousal
+        st.session_state['color'] = color
+        st.session_state['genre'] = predicted_genre
+
+        # Display the results
+        # st.write(f"Emotion Detected: {color}")
+        st.subheader(f"The predicted genre of the song is: {predicted_genre}")
         my_bar.empty()
 
+
+    # If a file has been processed, offer shape selection
+    if 'audio_processed' in st.session_state:
         st.write("Now, pick a shape!")
-        display_images(genre, valence, arousal, color, spotify_va)
+        st.write("Scroll down to view your selected shape projection")
+        display_images(st.session_state['genre'], st.session_state['valence'], st.session_state['arousal'], st.session_state['color'], spotify_va)
 
 # Run runner.py
 if __name__ == "__main__":

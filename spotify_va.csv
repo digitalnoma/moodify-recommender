@@ -1,0 +1,415 @@
+spotify_id,artist,track,file_path,genre,valence,arousal,colour
+1dGr1c8CrMLDpV6mPbImSI,Taylor Swift,Lover,spotify_audio/0.mp3,pop,4.101998329162598,5.4814229011535645,red
+0VjIjW4GlUZAMYd2vXMi3b,The Weeknd,Blinding Lights,spotify_audio/1.mp3,pop,3.7354588508605957,5.142622470855713,red
+7qEHsqek33rTcFNT9PFqLf,Lewis Capaldi,Someone You Loved,spotify_audio/2.mp3,pop,5.178768634796143,4.5128607749938965,red
+1LLmT2hZ415NaAz1cmZCBM,David Guetta,I'm Good (Blue),spotify_audio/3.mp3,disco,6.5257110595703125,6.1101226806640625,blue
+0V3wPSX9ygBnCm8psDIegu,Taylor Swift,Anti-Hero,spotify_audio/4.mp3,pop,5.6100263595581055,4.995327949523926,blue
+4h9wh7iOZ0GGn8QVp4RAOB,OneRepublic,I Ain't Worried,spotify_audio/5.mp3,pop,5.365045070648193,5.095065116882324,blue
+3WMj8moIAXJhHsyLaqIIHI,Zach Bryan,Something in the Orange,spotify_audio/6.mp3,country,3.984151840209961,5.488763809204102,red
+0u2P5u6lvoDfwTYjAADbn4,Billie Eilish,lovely (with Khalid),spotify_audio/7.mp3,pop,3.9859917163848877,3.4569973945617676,red
+4R2kfaDFhslZEMJqAFNpdd,Taylor Swift,cardigan,spotify_audio/8.mp3,pop,3.8963494300842285,4.595221519470215,red
+3USxtqRwSYz57Ewm6wWRMp,Glass Animals,Heat Waves,spotify_audio/9.mp3,pop,5.293418884277344,5.753134727478027,blue
+0pqnGHJpmpxLKifKRmU6WP,Imagine Dragons,Believer,spotify_audio/10.mp3,rock,5.33860969543457,4.006206512451172,red
+0tgVpDi06FyKpA1z0VMD4v,Ed Sheeran,Perfect,spotify_audio/11.mp3,pop,5.344819068908691,3.188351631164551,purple
+4xqrdfXkTW4T0RauPLv3WA,Conan Gray,Heather,spotify_audio/12.mp3,pop,4.623342990875244,4.5930304527282715,red
+5LrN7yUQAzvthd4QujgPFr,d4vd,Here With Me,spotify_audio/13.mp3,pop,4.676432132720947,4.170039176940918,red
+6UelLqGlWMcVH1E5c4H7lY,Harry Styles,Watermelon Sugar,spotify_audio/14.mp3,pop,4.2757697105407715,4.627045154571533,red
+21jGcNKet2qwijlDFuPiPb,Post Malone,Circles,spotify_audio/15.mp3,pop,4.44822883605957,5.317717552185059,red
+6HU7h9RYOaPRFeh0R3UeAr,Olivia Rodrigo,deja vu,spotify_audio/16.mp3,pop,4.147623062133789,5.371167182922363,red
+1zB4vmk8tFRmM9UULNzbLB,Imagine Dragons,Thunder,spotify_audio/17.mp3,rock,4.885284900665283,4.047898292541504,red
+2qxmye6gAegTMjLKEBoR3d,Alec Benjamin,Let Me Down Slowly,spotify_audio/18.mp3,pop,3.824204921722412,3.9330737590789795,red
+7KokYm8cMIXCsGVmUvKtqf,Taylor Swift,Karma,spotify_audio/19.mp3,pop,3.726653575897217,4.903233528137207,red
+5CZ40GBx1sQ9agT82CLQCT,Olivia Rodrigo,traitor,spotify_audio/20.mp3,pop,4.609138011932373,3.654879331588745,red
+5wANPM4fQCJwkGd4rN57mH,Olivia Rodrigo,drivers license,spotify_audio/21.mp3,pop,3.7929539680480957,4.239223480224609,red
+2gMXnyrvIjhVBUZwvLZDMP,Lewis Capaldi,Before You Go,spotify_audio/22.mp3,pop,3.9484150409698486,4.41893196105957,red
+1mXVgsBdtIVeCLJnSnmtdV,Sam Smith,Too Good At Goodbyes,spotify_audio/23.mp3,pop,4.555399417877197,4.029894828796387,red
+7BqHUALzNBTanL6OvsqmC1,Marshmello,Happier,spotify_audio/24.mp3,disco,4.509443283081055,5.094061374664307,red
+2VxeLyX666F8uXCJ0dZF8B,Lady Gaga,Shallow,spotify_audio/25.mp3,pop,4.5932440757751465,5.432473659515381,red
+4cktbXiXOapiLBMprHFErI,Maroon 5,Memories,spotify_audio/26.mp3,pop,4.3177924156188965,5.117751121520996,red
+50nfwKoDiSYg8zOCREWAm5,Ed Sheeran,Shivers,spotify_audio/27.mp3,pop,4.815590858459473,6.246779441833496,red
+3RauEVgRgj1IuWdJ9fDs70,Taylor Swift,The Man,spotify_audio/28.mp3,pop,5.181605815887451,6.494891166687012,green
+4ZtFanR9U6ndgddUvNcjcG,Olivia Rodrigo,good 4 u,spotify_audio/29.mp3,pop,4.762748718261719,4.861400604248047,red
+5cF0dROlMOK5uNZtivgu50,Charlie Puth,Attention,spotify_audio/30.mp3,pop,4.974905014038086,6.751697540283203,green
+6ocbgoVGwYJhOv1GgI9NsF,Ariana Grande,7 rings,spotify_audio/31.mp3,pop,4.457272529602051,4.914810657501221,red
+76OGwb5RA9h4FxQPT33ekc,Rosa Linn,SNAP,spotify_audio/32.mp3,pop,5.867526531219482,5.134345054626465,blue
+6tDDoYIxWvMLTdKpjFkc1B,Kali Uchis,telepatía,spotify_audio/33.mp3,pop,5.1985955238342285,5.489280700683594,red
+7ef4DlsgrMEH11cDZd32M6,Calvin Harris,One Kiss (with Dua Lipa),spotify_audio/34.mp3,disco,6.009559631347656,6.709028244018555,blue
+2L9N0zZnd37dwF0clgxMGI,Lizzy McAlpine,ceilings,spotify_audio/35.mp3,pop,4.068461894989014,4.605338096618652,red
+4l0RmWt52FxpVxMNni6i63,Tate McRae,you broke me first,spotify_audio/36.mp3,pop,4.856974124908447,4.59861421585083,red
+6Uj1ctrBOjOas8xZXGqKk4,Doja Cat,Woman,spotify_audio/37.mp3,pop,5.280858993530273,6.02708625793457,blue
+3ZCTVFBt2Brf31RLEnCkWJ,Billie Eilish,everything i wanted,spotify_audio/38.mp3,pop,3.9359798431396484,4.457264423370361,red
+5nujrmhLynf4yMoMtj8AQF,Dua Lipa,Levitating (feat. DaBaby),spotify_audio/39.mp3,disco,6.096048355102539,6.246458053588867,blue
+5HCyWlXZPP0y6Gqq8TgA20,The Kid LAROI,STAY (with Justin Bieber),spotify_audio/40.mp3,disco,4.000443458557129,5.107803821563721,red
+0RiRZpuVRbi7oqRdSMwhQY,Post Malone,Sunflower - Spider-Man: Into the Spider-Verse,spotify_audio/41.mp3,pop,5.9294962882995605,6.235651969909668,blue
+3Wrjm47oTz2sjIgck11l5e,Måneskin,Beggin',spotify_audio/42.mp3,rock,5.240875720977783,6.280085563659668,blue
+6zSpb8dQRaw0M1dK8PBwQz,Elton John,Cold Heart - PNAU Remix,spotify_audio/43.mp3,disco,5.168815612792969,6.020611763000488,red
+1ZMiCix7XSAbfAJlEZWMCp,Harry Styles,Falling,spotify_audio/44.mp3,pop,4.826799392700195,3.4390571117401123,red
+1rqqCSm0Qe4I9rUvWncaom,Panic! At The Disco,High Hopes,spotify_audio/45.mp3,pop,5.543298721313477,5.525639533996582,blue
+4qu63nuBpdn0qHUHuObEj1,Marshmello,Leave Before You Love Me (with Jonas Brothers),spotify_audio/46.mp3,pop,5.518366813659668,6.011557102203369,blue
+0QHEIqNKsMoOY5urbzN48u,Meghan Trainor,Made You Look,spotify_audio/47.mp3,pop,6.372357368469238,6.301174163818359,blue
+26b3oVLrRUaaybJulow9kz,Libianca,People,spotify_audio/48.mp3,pop,5.896787643432617,5.102878570556641,blue
+2iUXsYOEPhVqEBwsqP70rE,5 Seconds of Summer,Youngblood,spotify_audio/49.mp3,pop,3.7584478855133057,5.240802764892578,red
+6dpLxbF7lfCAnC9QRTjNLK,Good Neighbours,Home,spotify_audio/50.mp3,rock,4.082194805145264,3.7090227603912354,red
+1rAzOr3zpUDRtN2zsqGHiG,Linkin Park,Friendly Fire,spotify_audio/51.mp3,rock,4.529317378997803,5.601047039031982,red
+36FZL9SzRh5BhtG1cUyGWr,girl in red,Too Much,spotify_audio/52.mp3,rock,4.2114763259887695,3.594754695892334,red
+7Gk8icymiW50sDfFbWLoVG,Nothing But Thieves,Oh No :: He Said What?,spotify_audio/53.mp3,rock,6.187386512756348,7.1349687576293945,blue
+3pRCHHfwYNVCOjWSrkGNw1,Paramore,Burning Down the House,spotify_audio/54.mp3,rock,4.70538330078125,5.449873924255371,red
+7kcApwUclbIw9B6MuVmqPc,Twenty One Pilots,Overcompensate (edit),spotify_audio/55.mp3,rock,3.757080554962158,4.643585681915283,red
+5y1kheWw8d3DHl8bv5aEE8,Kings of Leon,Mustang,spotify_audio/56.mp3,rock,3.9255614280700684,4.891688346862793,red
+4AbYZMzeVqGE8Ys4wbI0PT,d4vd,Leave Her,spotify_audio/57.mp3,rock,5.31522274017334,5.512124061584473,blue
+6sQ833YbGp8SbtGcLCBwHw,Cigarettes After Sex,Tejano Blue,spotify_audio/58.mp3,rock,4.166854381561279,6.2459893226623535,green
+2tKqhcDNVVKXJqllKzrecM,Vampire Weekend,Capricorn,spotify_audio/59.mp3,rock,6.551464557647705,6.594179153442383,blue
+64pGB9FHgZsu60aNC3mK9s,Suki Waterhouse,OMG,spotify_audio/60.mp3,rock,5.253914833068848,5.1434712409973145,red
+6pP7muebYMLT46IOZOLvyN,Bleachers,Tiny Moves,spotify_audio/61.mp3,rock,4.48665714263916,4.036031246185303,red
+2F8GiqfSE1JSjLGHlHMmQa,Wallows,Your Apartment,spotify_audio/62.mp3,rock,5.784678936004639,6.696953296661377,blue
+0YLhxYUv69go9H8iirbSWO,Catfish and the Bottlemen,Showtime,spotify_audio/63.mp3,rock,5.435943603515625,6.417807579040527,blue
+756ziR2z4iXkK35qwBLUiY,The Black Keys,I Forgot To Be Your Lover,spotify_audio/64.mp3,rock,6.0806498527526855,5.11067008972168,blue
+1gRK6QnBOpNtEDjYKftzTc,The Last Dinner Party,The Feminine Urge,spotify_audio/65.mp3,rock,4.707891464233398,5.253192901611328,red
+5PCMU8scAoT4sz4Fn2Umua,Sum 41,Waiting On A Twist Of Fate,spotify_audio/66.mp3,rock,3.803408145904541,4.608145713806152,red
+1uQ5oCjZvQsMZaBFAdkSuF,EKKSTACY,alright (feat. The Kid LAROI),spotify_audio/67.mp3,rock,5.749383926391602,6.655950546264648,blue
+7f4azWcTVEDHZ7DSc5eh5a,IDLES,POP POP POP,spotify_audio/68.mp3,rock,5.167884826660156,5.782372951507568,red
+42YrtW7V1OyF3BXi0ftYQj,Mumford & Sons,Good People,spotify_audio/69.mp3,rock,5.153820991516113,4.735471725463867,red
+4Zy6m1QjUivLl8Zt7E8uxr,The Beaches,Edge of the Earth,spotify_audio/70.mp3,rock,5.1645097732543945,4.48091459274292,red
+1ROCJzbhjpP7uYRrse4fzf,Mother Mother,Explode!,spotify_audio/71.mp3,rock,5.846632957458496,6.710133075714111,blue
+43Ka2d0YZZlOzVGwf96xNw,Giant Rooks,Pink Skies,spotify_audio/72.mp3,rock,5.1681342124938965,5.626522541046143,red
+5gUiI6bJSPcKM2lwRaLAgE,Infinity Song,Slow Burn,spotify_audio/73.mp3,rock,5.060883045196533,4.438403129577637,red
+1nNqKHLoMMzpQNhsZihMgC,Kasabian,Call,spotify_audio/74.mp3,rock,5.0370707511901855,5.75693416595459,red
+2FKnNu9PmgcUSXXBgR2phR,ThxSoMch,When The Devil Speaks…,spotify_audio/75.mp3,rock,6.093194961547852,5.8447957038879395,blue
+6qFnjQ4ULgV9YU5ukUDdwE,Lola Young,Wish You Were Dead,spotify_audio/76.mp3,rock,4.481293201446533,4.417214393615723,red
+6c4IBaa5opgDKC5mVQEauZ,MGMT,Dancing In Babylon (feat. Christine and the Queens),spotify_audio/77.mp3,rock,4.189203262329102,4.780937194824219,red
+5BxC04q61icn0SHinQCBeR,Palaye Royale,Dead To Me,spotify_audio/78.mp3,rock,4.676434516906738,6.022833824157715,red
+49T4ZaBd8G932neUPU9AWB,jxdn,WHEN THE MUSIC STOPS,spotify_audio/79.mp3,rock,4.248891353607178,4.788520812988281,red
+536ZTi6wWJQ2gYXkXnJwVX,Charlotte Sands,spite,spotify_audio/80.mp3,rock,6.524425983428955,7.139341831207275,blue
+1seLWPX7HzMY1FZ4lrGXuD,Wisp,See you soon,spotify_audio/81.mp3,rock,5.2202982902526855,4.944515228271484,red
+4cwi0Yd3pq1GfvHj7FLMdn,Royal & the Serpent,kinda smacks,spotify_audio/82.mp3,rock,6.672296047210693,8.130208969116211,blue
+3ArhAv6XnxAnGK8s6et1E1,THE DRIVER ERA,Get Off My Phone,spotify_audio/83.mp3,rock,4.510093688964844,5.392555236816406,red
+,Jelani Aryeh,I'm in Love,spotify_audio/84.mp3,rock,6.43991231918335,6.403458118438721,blue
+,Empress Of,What's Love (feat. MUNA),spotify_audio/85.mp3,rock,4.340799331665039,5.20249605178833,red
+2Yj6z7338KEuVa2YxU2vqk,WesGhost,FACETIME,spotify_audio/86.mp3,rock,4.30980920791626,5.710285663604736,red
+2t6drKARdGJAAEzx9PTlo3,Aidan Bissett,Planet,spotify_audio/87.mp3,rock,5.889796257019043,6.75643253326416,blue
+0KbiElEOrLB2Yeo8aHkenq,Knox,"Me, Myself & Your Eyes",spotify_audio/88.mp3,rock,6.064032554626465,5.313733100891113,blue
+0xFKj9yBje6JakSVa2JsrO,Gus Dapperton,Lil Tune,spotify_audio/89.mp3,rock,4.904715538024902,5.430484771728516,red
+4Ne4UbfqgXcBdIsYHjvR6y,PVRIS,Burn The Witch,spotify_audio/90.mp3,rock,6.52850341796875,5.801475524902344,blue
+7ClwnN5j16cc6i5MqWFgHK,St. Vincent,Broken Man,spotify_audio/91.mp3,rock,3.9008710384368896,5.097156524658203,red
+6Yx5Cw2mVmx6LiVP2VXWEO,Cage The Elephant,Out Loud,spotify_audio/92.mp3,rock,5.023434638977051,6.021083831787109,red
+38LwV7bVPuuWG4PqlhTxtK,X Ambassadors,Your Town,spotify_audio/93.mp3,rock,4.589548110961914,4.192492485046387,red
+1QfSvXdSRc57B7eYGeYL3O,Jazmin Bean,You Know What You’ve Done,spotify_audio/94.mp3,rock,4.76554012298584,3.7478737831115723,red
+50MENnfIoeGMMmN1NpVZxx,Friday Pilots Club,Vampire Disco,spotify_audio/95.mp3,rock,5.4962615966796875,5.934638500213623,blue
+49sFu3Kz7zf94qT27b2ZF9,I DONT KNOW HOW BUT THEY FOUND ME,DOWNSIDE,spotify_audio/96.mp3,rock,7.06795072555542,5.869370937347412,blue
+1uMo2HFIfKc3NJVl73L1zj,Alice Merton,run away girl,spotify_audio/97.mp3,rock,5.722101211547852,5.520949363708496,blue
+2YbJ0qJ5uqOPfLGvqMLkaK,Cannons,Heartbeat Highway,spotify_audio/98.mp3,rock,5.628229141235352,5.490252494812012,blue
+4ne40SWAvqOQu0HD2fwgWd,Gary Clark Jr.,Maktub,spotify_audio/99.mp3,rock,3.853884220123291,4.533259391784668,red
+52eIcoLUM25zbQupAZYoFh,21 Savage,redrum,spotify_audio/100.mp3,pop,4.834026336669922,5.250818252563477,red
+4xhsWYTOGcal8zt0J161CU,Jack Harlow,Lovin On Me,spotify_audio/101.mp3,pop,6.480711936950684,6.473320960998535,blue
+3w0w2T288dec0mgeZZqoNN,¥$,CARNIVAL,spotify_audio/102.mp3,hiphop,5.952512741088867,5.246844291687012,blue
+6uTPdRrEDeH8Fyg5L5qmeU,Flo Milli,Never Lose Me,spotify_audio/103.mp3,pop,5.548702239990234,5.699433326721191,blue
+1udwFobQ1JoOdWPQrp2b6u,JID,Surround Sound (feat. 21 Savage & Baby Tate),spotify_audio/104.mp3,pop,4.9259233474731445,5.538260459899902,red
+6wsqVwoiVH2kde4k4KKAFU,Travis Scott,I KNOW ?,spotify_audio/105.mp3,hiphop,4.870233058929443,5.699024677276611,red
+2YSzYUF3jWqb9YP9VXmpjE,Drake,IDGAF (feat. Yeat),spotify_audio/106.mp3,hiphop,3.809938669204712,3.4430365562438965,red
+4kjI1gwQZRKNDkw1nI475M,Travis Scott,MY EYES,spotify_audio/107.mp3,hiphop,3.94876766204834,5.541853427886963,red
+7aqfrAY2p9BUSiupwk3svU,Drake,First Person Shooter (feat. J. Cole),spotify_audio/108.mp3,hiphop,4.333841800689697,4.113208770751953,red
+2yUzr8Sr6ldG8vmHhZwTnz,21 Savage,née-nah,spotify_audio/109.mp3,hiphop,4.865189552307129,5.875850677490234,red
+7sTyAjxDXq9afwfSQy6D0s,Don Toliver,Bandit,spotify_audio/110.mp3,hiphop,4.794724464416504,5.175827503204346,red
+5tEaVciE2GnR28aN6W9cLS,¥$,FUK SUMN,spotify_audio/111.mp3,hiphop,5.597902297973633,5.34710693359375,blue
+1a73gcEg6h6Re6hHXoVltJ,Nicki Minaj,FTCU,spotify_audio/112.mp3,hiphop,5.948123931884766,5.298364639282227,blue
+69phA1R4gmQsBFRQ3INW8C,Rich Amiri,ONE CALL,spotify_audio/113.mp3,hiphop,6.031769752502441,5.764945983886719,blue
+57wp7VFnV8X0pSVnYArGeJ,Bryson Tiller,Whatever She Wants,spotify_audio/114.mp3,hiphop,4.588947296142578,5.2214131355285645,red
+1icgLGTpX2fQXKRe4D7w2b,¥$,BACK TO ME,spotify_audio/115.mp3,hiphop,6.1834540367126465,4.352937698364258,blue
+6x9pCndnXEoea0CMcfjs9W,21 Savage,n.h.i.e.,spotify_audio/116.mp3,hiphop,4.685800552368164,5.370269298553467,red
+4w2Furap0ZzaiK4J14E9sR,Ice Spice,Think U The Shit (Fart),spotify_audio/117.mp3,hiphop,4.946822643280029,4.8219404220581055,red
+79AHPJd8upvNxyK2qQcY8J,Megan Thee Stallion,HISS,spotify_audio/118.mp3,hiphop,5.547516345977783,8.859648704528809,green
+5NAOhPAZ57eFAXr3qatS6i,Yeat,Breathe,spotify_audio/119.mp3,hiphop,4.3261613845825195,5.805915355682373,red
+1X72FLGOB90B1MFYWRh9Vj,Key Glock,Let's Go,spotify_audio/120.mp3,hiphop,5.856701850891113,5.877251625061035,blue
+2Gk6fi0dqt91NKvlzGsmm7,Offset,SAY MY GRACE (feat. Travis Scott),spotify_audio/121.mp3,hiphop,5.561463356018066,6.233218669891357,blue
+6rjuKpPydT2SxN15TZpV7r,Lil Tecca,500lbs,spotify_audio/122.mp3,hiphop,4.7169342041015625,5.983407020568848,red
+1Y1jtaZOJYgXBl7lKdLc9o,Lil Yachty,A Cold Sunday,spotify_audio/123.mp3,hiphop,5.605023384094238,5.846134185791016,blue
+3ScMs95OaNlkrZuRe7gyYa,NLE Choppa,PISTOL PACCIN,spotify_audio/124.mp3,hiphop,5.2815351486206055,4.9418745040893555,red
+2Adxpr1j5lSihOCsmIfflJ,Kid Cudi,GET OFF ME (with Travis Scott),spotify_audio/125.mp3,hiphop,5.417421817779541,4.691453456878662,blue
+4QTlxavdQGUVitxAvQqqkU,BigXthaPlug,Mmhmm,spotify_audio/126.mp3,hiphop,5.320727825164795,5.942873954772949,blue
+6ulEymrJ2Azx1uo3YHSE5w,41,Bent,spotify_audio/127.mp3,hiphop,5.340068340301514,4.73604679107666,red
+5gzEL5O1ubbtIHUhLkSMTz,Tee Grizzley,Loop Hole (feat. 21 Savage),spotify_audio/128.mp3,hiphop,5.464103698730469,5.965411186218262,blue
+5ZDIwpR2JMwuRM8xumtmxn,Lil Tecca,Down With Me,spotify_audio/129.mp3,pop,5.119326591491699,4.662861347198486,red
+779jpZikRmH99DiSVpwCHD,310babii,soak city (do it),spotify_audio/130.mp3,hiphop,5.701560974121094,5.378573417663574,blue
+6uFG0BRd3BaonWjEGuHYAh,Yeat,As We Speak (feat. Drake),spotify_audio/131.mp3,hiphop,4.514221668243408,4.166597366333008,red
+0tCqfQ0MHZBYvsZ169ZnUM,Polo G,Sorrys & Ferraris,spotify_audio/132.mp3,hiphop,4.203252792358398,4.538681507110596,red
+582YxhgpJEY0aEHQtVQFhO,That Mexican OT,02.02.99,spotify_audio/133.mp3,hiphop,5.94823694229126,4.5367751121521,blue
+4iEoDBAgMJIzest7VsDgmT,BossMan Dlow,Get In With Me,spotify_audio/134.mp3,hiphop,5.745723724365234,5.736331939697266,blue
+3QlntWTqoupz5pnBTCnNvt,Gunna,Bittersweet,spotify_audio/135.mp3,hiphop,4.5191473960876465,4.499077320098877,red
+73f5rpLgydSRIvHzRLcJFF,Lil Baby,Crazy,spotify_audio/136.mp3,hiphop,5.190075397491455,5.606566429138184,red
+2yrEBYkFqRcT65jRXnIICU,Kodak Black,Shampoo,spotify_audio/137.mp3,hiphop,4.874131202697754,5.557998180389404,red
+3K5yjMCFHN4TRWKj1zdKIQ,ScHoolboy Q,Yeern 101,spotify_audio/138.mp3,hiphop,5.068836688995361,3.994795322418213,red
+0SdBkFh6u5IHIXqlBu0NyI,GloRilla,Yeah Glo!,spotify_audio/139.mp3,hiphop,6.3415913581848145,6.293046951293945,blue
+35gu7pEQ2gOLUvskspCD3Y,Turbo,Bachelor,spotify_audio/140.mp3,hiphop,4.579739570617676,4.176131248474121,red
+,Sleepy Hallow,Cupid's Guidance,spotify_audio/141.mp3,hiphop,5.435601234436035,5.807467460632324,blue
+7gM0bjWc2LpgZTihy4U18P,Lil Durk,Old Days,spotify_audio/142.mp3,hiphop,4.800101280212402,5.90415096282959,red
+4pcgOnRhCaNBOz5e0xcyWg,Rob49,Homebody,spotify_audio/143.mp3,hiphop,6.084775924682617,5.150874614715576,blue
+1ytVc8fTgA7hAOOR0n4EH7,Latto,Sunday Service,spotify_audio/144.mp3,hiphop,5.6071882247924805,6.487574100494385,blue
+00p23Uw776hxaIGNWL9S1Y,Quavo,Himothy,spotify_audio/145.mp3,hiphop,5.359447479248047,6.108817100524902,blue
+3ytbtkmMnkfwMrBi32a7FD,Cardi B,Like What (Freestyle),spotify_audio/146.mp3,hiphop,4.344682216644287,5.829663276672363,red
+7CwO2esrH095tjxmJVMY2E,ScHoolboy Q,THank god 4 me,spotify_audio/147.mp3,hiphop,4.656909942626953,4.274703502655029,red
+1wMxLpODBBQMC6CiIBIV8e,Meek Mill,Giving Chanel,spotify_audio/148.mp3,hiphop,4.632471561431885,5.701397895812988,red
+3P7IwlmZ5HMZb9L2NIlJUR,DaBaby,GRAMMY PARTY,spotify_audio/149.mp3,hiphop,5.311635494232178,6.8906025886535645,green
+5mjYQaktjmjcMKcUIcqz4s,Kenya Grace,Strangers,spotify_audio/150.mp3,pop,5.275442123413086,3.8237693309783936,red
+59NraMJsLaMCVtwXTSia8i,cassö,Prada,spotify_audio/151.mp3,disco,6.19862174987793,5.876262664794922,blue
+31nfdEooLEq7dn3UMcIeB5,BENNETT,Vois sur ton chemin - Techno Mix,spotify_audio/152.mp3,disco,5.982480525970459,5.429300308227539,blue
+09CnYHiZ5jGT1wr1TXJ9Zt,Dimitri Vegas & Like Mike,Thank You (Not So Bad),spotify_audio/153.mp3,disco,5.887549877166748,8.962610244750977,green
+3bK1zVFBKIzYjmptmI4NsJ,Ofenbach,Overdrive (feat. Norma Jean Martine),spotify_audio/154.mp3,disco,5.3115129470825195,4.460091590881348,red
+23RoR84KodL5HWvUTneQ1w,Peggy Gou,(It Goes Like) Nanana - Edit,spotify_audio/155.mp3,disco,5.818169116973877,5.948258876800537,blue
+3BKD1PwArikchz2Zrlp1qi,David Guetta,Baby Don't Hurt Me,spotify_audio/156.mp3,disco,5.529293060302734,5.238383769989014,blue
+2T2cql1d9gRoe7HnzxLdaM,Alok,LET'S GET FKD UP,spotify_audio/157.mp3,disco,6.897559642791748,7.254611968994141,blue
+5ZduaRci3iNUiDfJbBfAaf,Matt Sassari,Give It To Me - Full Vocal Mix,spotify_audio/158.mp3,disco,5.857595443725586,4.4675493240356445,blue
+3AjSfp5FDvwtMU9XBsbS8j,Creeds,Push Up - Main Edit,spotify_audio/159.mp3,disco,4.210831165313721,7.434042453765869,green
+4ZnkygoWLzcGbQYCm3lkae,Troye Sivan,Rush,spotify_audio/160.mp3,disco,6.056541442871094,5.804034233093262,blue
+5eTaQYBE1yrActixMAeLcZ,Calvin Harris,Miracle (with Ellie Goulding),spotify_audio/161.mp3,disco,5.17047119140625,5.120940208435059,red
+1MVqeIAwhD4T44AKVkIfic,Fred again..,leavemealone,spotify_audio/162.mp3,disco,5.444444179534912,5.191703796386719,blue
+0OvO2X2Q3i98dc5RcgEN3x,Alok,Jungle,spotify_audio/163.mp3,disco,5.1128740310668945,5.264883995056152,red
+0zKbDrEXKpnExhGQRe9dxt,Tiësto,Lay Low,spotify_audio/164.mp3,disco,5.188091278076172,5.702847957611084,red
+5KTZgG84bKFGm53lhLtTqc,Zerb,Mwaki,spotify_audio/165.mp3,disco,4.494394302368164,4.18802547454834,red
+787Y2idwCU2Rk60Prv4wpr,Dom Dolla,Saving Up,spotify_audio/166.mp3,disco,7.023517608642578,5.4097490310668945,blue
+0xoYZ45fgTfyQYREZPN7Sa,Disclosure,You & Me - Rivo Remix,spotify_audio/167.mp3,disco,4.869085311889648,4.504555702209473,red
+5QOBT97OmYCZo1W5u7tRrB,Fred again..,ten,spotify_audio/168.mp3,disco,4.794569969177246,4.580100059509277,red
+2F2p7b5Xq20mRyEeWYaeUF,Purple Disco Machine,Substitution (feat. Julian Perretta),spotify_audio/169.mp3,disco,5.660309791564941,7.329141616821289,green
+1UPHCP5YeVfele4DMbdGyi,Switch Disco,REACT,spotify_audio/170.mp3,disco,5.721045970916748,5.783392429351807,blue
+4bz8Z7squfs2Yji2DwoujR,Sonny Fodera,Asking,spotify_audio/171.mp3,disco,5.6080851554870605,6.517248153686523,blue
+6xp1u6ZEHXX8DxJIFFrVoP,Jorja Smith,Little Things x Gypsy Woman - L BEATS MASHUP,spotify_audio/172.mp3,disco,5.447274208068848,5.324185371398926,blue
+6pb5DtlAeG95dNQLHiArRU,R3HAB,Rock My Body,spotify_audio/173.mp3,disco,5.478830337524414,5.041849613189697,blue
+32fmwlkq7srmOAb5N0vdyj,RSCL,Echo,spotify_audio/174.mp3,disco,4.869631767272949,4.996947288513184,red
+4qDpLaFGf5ampf2DXD2TMA,John Summit,Where You Are,spotify_audio/175.mp3,disco,5.207119464874268,5.724184989929199,red
+1aNUSKBe6UMyMk3pEu9ws7,FISHER,Atmosphere,spotify_audio/176.mp3,disco,6.088950157165527,6.690378665924072,blue
+4AFlChQQJbB1MOCgOiiyYc,James Hype,Drums (Feat. Kim Petras),spotify_audio/177.mp3,disco,7.279723167419434,5.353233337402344,blue
+602d2gJewoiF1FivuOMMwE,Becky Hill,Disconnect,spotify_audio/178.mp3,disco,5.770441055297852,5.210052013397217,blue
+39JofJHEtg8I4fSyo7Imft,Eliza Rose,B.O.T.A. (Baddest Of Them All) - Edit,spotify_audio/179.mp3,disco,4.775076389312744,4.413124084472656,red
+0ZVjgfaC2Ptrod9v6p9KFP,Hannah Laing,Good Love,spotify_audio/180.mp3,disco,6.470863342285156,6.42497444152832,blue
+1ls2PNiOHOxmSfHRyslgAl,John Summit,Shiver,spotify_audio/181.mp3,disco,4.9861273765563965,5.444520950317383,red
+5SFCEkybGYmmzKqewtDEaN,Eliza Rose,Body Moving,spotify_audio/182.mp3,disco,5.72291374206543,6.512613773345947,blue
+09rAJ1Q1NNJSaUKEW3X9P6,Sam Feldt,Crying On The Dancefloor,spotify_audio/183.mp3,disco,5.14863395690918,5.152641296386719,red
+44MuEHdlociG8KjhPhOVw5,Kylie Minogue,Padam Padam,spotify_audio/184.mp3,disco,5.327020645141602,5.349109649658203,blue
+1cQld05IcUDw3RCFt7uymW,Eli Brown,Be The One,spotify_audio/185.mp3,disco,6.144096374511719,5.749866485595703,blue
+1ACFweuuvf6MHtptObgreR,Jazzy,Giving Me,spotify_audio/186.mp3,disco,5.757608890533447,4.1565070152282715,blue
+1o2WYr42HrIoR38WhMy4p6,Argy,Aria,spotify_audio/187.mp3,pop,5.600994110107422,5.5107102394104,blue
+7F7N0yugLFgKXoEACgtzD8,Sonny Wern,"Dance For Me (1, 2, 3) - Stutter Techno",spotify_audio/188.mp3,disco,5.074079513549805,6.093952655792236,red
+5Y2n6pW4Vqr4Mzkd9V4Uk8,Swedish House Mafia,Ray Of Solar,spotify_audio/189.mp3,disco,5.256360054016113,3.629936456680298,red
+7zp9FOU4cjFdGN1zdWTvcB,FISHER,TAKE IT OFF,spotify_audio/190.mp3,disco,5.923549652099609,6.175418376922607,blue
+74nEGIzIefJhJ5qX7NeIAz,Chris Lake,Beggin',spotify_audio/191.mp3,disco,4.838012218475342,4.835292816162109,red
+199wv1uOJYZ1XyK8FTzwh2,Dezko,Ascend,spotify_audio/192.mp3,disco,5.250360488891602,5.308782577514648,red
+6W9qtw3ddhkYznaOxB50p8,Lost Frequencies,The Feeling,spotify_audio/193.mp3,disco,4.278698921203613,4.166416168212891,red
+6tifCCTIVBLC2TmTquYG7G,Skrillex,Fine Day Anthem,spotify_audio/194.mp3,disco,5.47663688659668,6.172445297241211,blue
+7DnI3ktF2vcmzKuCCKseQL,D.O.D,So Much In Love,spotify_audio/195.mp3,disco,6.845160961151123,6.563379287719727,blue
+3zPco1u9i9bCjkG5pngR5t,BUNT.,Clouds,spotify_audio/196.mp3,disco,4.472256660461426,5.7113518714904785,red
+4wteGC0HtLeZWjDcczc4Pw,Skrillex,RATATA,spotify_audio/197.mp3,disco,6.879848480224609,5.343148231506348,blue
+0iG3esqSDh6QJdN1zrAgyo,FOVOS,Lollipop,spotify_audio/198.mp3,disco,4.444768905639648,4.004863739013672,red
+4ejCsNXh66YasBUiwfBhDg,The Blessed Madonna,Mercy (feat. Jacob Lusk),spotify_audio/199.mp3,disco,7.1246442794799805,5.299735069274902,blue
+3vkCueOmm7xQDoJ17W1Pm3,Mitski,My Love Mine All Mine,spotify_audio/200.mp3,pop,3.393953561782837,4.539831161499023,red
+3qhlB30KknSejmIvZZLjOD,Djo,End of Beginning,spotify_audio/201.mp3,pop,4.923272132873535,7.0578789710998535,green
+2QjOHCTQ1Jl3zawyYOpxh6,The Neighbourhood,Sweater Weather,spotify_audio/202.mp3,rock,4.636308670043945,6.4045233726501465,green
+0yc6Gst2xkRu0eMLeRMGCX,Cigarettes After Sex,Apocalypse,spotify_audio/203.mp3,pop,4.8872761726379395,5.448390007019043,red
+6dBUzqjtbnIa1TwYbyw5CM,TV Girl,Lovers Rock,spotify_audio/204.mp3,rock,5.83376407623291,6.882068634033203,blue
+4SqWKzw0CbA05TGszDgMlc,The Walters,I Love You So,spotify_audio/205.mp3,pop,4.537234783172607,5.703314304351807,red
+3USxtqRwSYz57Ewm6wWRMp,Glass Animals,Heat Waves,spotify_audio/206.mp3,pop,5.293418884277344,5.753134727478027,blue
+,Arctic Monkeys,Why'd You Only Call Me When You're High?,spotify_audio/207.mp3,rock,5.630945205688477,5.768256187438965,blue
+3EaJDYHA0KnX88JvDhL9oa,Steve Lacy,Dark Red,spotify_audio/208.mp3,pop,5.7825727462768555,6.74232292175293,blue
+5FVd6KXrgO9B3JPmC8OPst,Arctic Monkeys,Do I Wanna Know?,spotify_audio/209.mp3,pop,4.452364921569824,4.855224609375,red
+6K4t31amVTZDgR3sKmwUJJ,Tame Impala,The Less I Know The Better,spotify_audio/210.mp3,rock,6.169427871704102,5.063957691192627,blue
+6IPwKM3fUUzlElbvKw2sKl,girl in red,we fell in love in october,spotify_audio/211.mp3,pop,4.569840908050537,5.231414794921875,red
+2K7xn816oNHJZ0aVqdQsha,The Neighbourhood,Softcore,spotify_audio/212.mp3,rock,5.2211594581604,6.362587928771973,green
+1aXV8GrmQLvgoFtBPERP7E,Eyedress,Jealous,spotify_audio/213.mp3,disco,5.940672874450684,6.134466171264648,blue
+1FWsomP9StpCcXNWmJk8Cl,Cigarettes After Sex,K.,spotify_audio/214.mp3,pop,4.730471611022949,6.2149152755737305,red
+7EAMXbLcL0qXmciM5SwMh2,Mac DeMarco,Heart To Heart,spotify_audio/215.mp3,rock,4.111682891845703,3.680450677871704,red
+0SpkyS1Q4MD8GaVcP5YjT4,Cigarettes After Sex,Sunsetz,spotify_audio/216.mp3,pop,5.3112382888793945,5.202594757080078,red
+3jjsRKEsF42ccXf8kWR3nu,Mitski,Washing Machine Heart,spotify_audio/217.mp3,rock,6.430488586425781,7.320155143737793,blue
+7w87IxuO7BDcJ3YUqCyMTT,Foster The People,Pumped Up Kicks,spotify_audio/218.mp3,pop,4.915520668029785,5.6764302253723145,red
+2L9N0zZnd37dwF0clgxMGI,Lizzy McAlpine,ceilings,spotify_audio/219.mp3,pop,4.068461894989014,4.605338096618652,red
+42qNWdLKCI41S4uzfamhFM,bôa,Duvet,spotify_audio/220.mp3,pop,5.704977989196777,5.92805290222168,blue
+3GZD6HmiNUhxXYf8Gch723,Frank Ocean,Lost,spotify_audio/221.mp3,blues,5.49638557434082,5.541074752807617,blue
+0j3mqDTK4Z6lvrLzFCUUz6,Suki Waterhouse,Good Looking,spotify_audio/222.mp3,pop,5.710773468017578,3.010349750518799,purple
+7yNf9YjeO5JXUE3JEBgnYc,Dominic Fike,Babydoll,spotify_audio/223.mp3,pop,6.108780860900879,6.854167461395264,blue
+51Grh1RyUDcMBbpuyUIUHI,Liana Flores,rises the moon,spotify_audio/224.mp3,pop,4.578509330749512,3.2582552433013916,red
+10nyNJ6zNy2YVYLrcwLccB,Radiohead,No Surprises,spotify_audio/225.mp3,rock,3.850170135498047,4.681666851043701,red
+2R4AlwtrrkMaRKojcTIzmL,Mac DeMarco,For the First Time,spotify_audio/226.mp3,rock,5.728246688842773,4.998051166534424,blue
+6RiiSy9GzSwiyDEJDiMuKe,Eyedress,Something About You,spotify_audio/227.mp3,disco,5.418871879577637,5.317500114440918,blue
+1o82DwNisONAd2mu1RcGE6,Lana Del Rey,Margaret (feat. Bleachers),spotify_audio/228.mp3,pop,4.100502014160156,3.6776068210601807,red
+75IQVo8hqI1iwVZyvkN2VT,Men I Trust,Show Me How,spotify_audio/229.mp3,blues,5.65027379989624,3.9399545192718506,red
+0sTlGEld0h8kIPZaKDYUf4,The Rare Occasions,Notion,spotify_audio/230.mp3,rock,4.696788311004639,5.766939163208008,red
+6ilc4vQcwMPlvAHFfsTGng,Cigarettes After Sex,Sweet,spotify_audio/231.mp3,pop,5.487085342407227,5.891384601593018,blue
+0GO8y8jQk1PkHzS31d699N,GROUPLOVE,Tongue Tied,spotify_audio/232.mp3,rock,3.7552852630615234,3.8431458473205566,red
+6jgkEbmQ2F2onEqsEhiliL,Mac DeMarco,My Kind of Woman,spotify_audio/233.mp3,rock,4.797450065612793,5.969887733459473,red
+1KIJclzEbNhSVw8tiHPWwE,Vacations,Young,spotify_audio/234.mp3,rock,6.216635704040527,6.074477195739746,blue
+2ihCaVdNZmnHZWt0fvAM7B,Of Monsters and Men,Little Talks,spotify_audio/235.mp3,rock,5.63170862197876,5.751574516296387,blue
+2enPRFda84VE2wtI8c86Uf,Cults,Always Forever,spotify_audio/236.mp3,pop,4.974199295043945,5.446123123168945,red
+2dLLR6qlu5UJ5gk0dKz0h3,Lorde,Royals,spotify_audio/237.mp3,pop,3.9407684803009033,3.976128578186035,red
+7H0ya83CMmgFcOhw0UB6ow,Beach House,Space Song,spotify_audio/238.mp3,pop,4.756615161895752,6.428375244140625,green
+6rY5FAWxCdAGllYEOZMbjW,Joji,SLOW DANCING IN THE DARK,spotify_audio/239.mp3,blues,4.294018745422363,5.706020355224609,red
+4k6Uh1HXdhtusDW5y8Gbvy,Steve Lacy,Bad Habit,spotify_audio/240.mp3,hiphop,5.4407758712768555,6.5180816650390625,green
+4iG2gAwKXsOcijVaVXzRPW,MGMT,Time to Pretend,spotify_audio/241.mp3,rock,4.501981735229492,6.284722328186035,red
+6UFivO2zqqPFPoQYsEMuCc,Clairo,Bags,spotify_audio/242.mp3,pop,5.337443828582764,6.351628303527832,blue
+5WbfFTuIldjL9x7W6y5l7R,Faye Webster,Kingston,spotify_audio/243.mp3,pop,4.467087268829346,5.481353759765625,red
+6Nle9hKrkL1wQpwNfEkxjh,Frank Ocean,Chanel,spotify_audio/244.mp3,blues,5.126784324645996,3.95487642288208,red
+7wCmS9TTVUcIhRalDYFgPy,Pixies,Where Is My Mind? - Remastered,spotify_audio/245.mp3,rock,4.3170318603515625,5.759913921356201,red
+2A0TJZAbvqMD6UhGxuHZ6U,Her's,What Once Was,spotify_audio/246.mp3,pop,4.591094017028809,7.020995140075684,green
+7sIx70dGj3VBiHWr0KZXfD,Current Joys,Blondie,spotify_audio/247.mp3,rock,6.149303913116455,4.836586952209473,blue
+2P5yIMu2DNeMXTyOANKS6k,Mitski,Nobody,spotify_audio/248.mp3,pop,4.4598493576049805,4.997069835662842,red
+0ToG55iJZCOzZkcpWbXxpW,Big Thief,Vampire Empire,spotify_audio/249.mp3,rock,4.976219654083252,5.5086894035339355,red
+4KULAymBBJcPRpk1yO4dOG,Zach Bryan,I Remember Everything (feat. Kacey Musgraves),spotify_audio/250.mp3,pop,5.0570759773254395,4.759113788604736,red
+2kE2HFBFkJ0VMw3igxYohz,Jessie Murph,Wild Ones (feat. Jelly Roll),spotify_audio/251.mp3,country,4.401705265045166,6.3748884201049805,green
+4dtIxANFBU6CfhI9c2hf2g,Dylan Gossett,Coal,spotify_audio/252.mp3,country,4.445240020751953,4.7462968826293945,red
+73zawW1ttszLRgT9By826D,Morgan Wallen,Man Made A Bar (feat. Eric Church),spotify_audio/253.mp3,country,4.553138732910156,5.083529472351074,red
+0eBFgRxyVSeuT4iyrbukdn,Luke Combs,Where the Wild Things Are,spotify_audio/254.mp3,country,4.947359561920166,6.521447658538818,green
+1ZpPaBDswjV3VSUKqLDXPE,Chayce Beckham,23,spotify_audio/255.mp3,country,4.551822185516357,5.779693603515625,red
+0wXThIDxO3YRJCpPgnmbkw,Bailey Zimmerman,Where It Ends,spotify_audio/256.mp3,country,5.6834397315979,6.031274795532227,blue
+103u49mLoJUge83B1CnLxI,HARDY,TRUCK BED,spotify_audio/257.mp3,country,4.415000915527344,5.666749000549316,red
+30LZU3ReFIndjHLfaahreM,Jelly Roll,Save Me (with Lainey Wilson),spotify_audio/258.mp3,country,4.012852668762207,4.329909324645996,red
+6vsa5VDsIaWC8oJnowU65l,Dylan Scott,This Town's Been Too Good To Us,spotify_audio/259.mp3,country,4.932554244995117,5.924319267272949,red
+6UoKX6uLJwhsnyTp5k5StP,Cody Johnson,The Painter,spotify_audio/260.mp3,country,4.583550453186035,5.219175338745117,red
+333XFHKsHU0pOocFzBgrJi,Kacey Musgraves,Deeper Well,spotify_audio/261.mp3,country,5.322357177734375,4.293252944946289,red
+2uHgCkaiHwZKl7tDBTVsyW,Megan Moroney,No Caller ID,spotify_audio/262.mp3,country,5.705665111541748,4.75415563583374,blue
+,Josh Ross,Ain't Doin' Jack,spotify_audio/263.mp3,country,5.79493522644043,4.6637773513793945,blue
+2hNQDbZcN3vqRAuwiz7poI,Jordan Davis,Tucson Too Late,spotify_audio/264.mp3,country,5.298337936401367,5.102437973022461,red
+6VpH2prT3NGiK5pnpG2L3J,Nate Smith,Bulletproof,spotify_audio/265.mp3,country,5.4695024490356445,4.6283793449401855,blue
+65M92JpTbAdHmTQm4jGaDa,Chris Stapleton,Think I'm In Love With You,spotify_audio/266.mp3,country,4.499780178070068,6.716341972351074,green
+0Z7nGFVCLfixWctgePsRk9,Beyoncé,TEXAS HOLD 'EM,spotify_audio/267.mp3,pop,5.0465288162231445,5.203476428985596,red
+2eGvz6O6tVnh9nKiitDEhZ,Kane Brown,I Can Feel It,spotify_audio/268.mp3,country,4.255208969116211,5.561493873596191,red
+1hgINxfKQlJOikzd9skvC2,Dylan Marlowe,Boys Back Home,spotify_audio/269.mp3,country,5.6837873458862305,6.625497817993164,blue
+2dPwBKr5uJeCeyd5IoWi8W,Carly Pearce,we don't fight anymore,spotify_audio/270.mp3,country,3.495781660079956,3.7615489959716797,red
+0ayd4fDb6rMZl9uqCY3Hzl,Owen Riegling,Old Dirt Roads,spotify_audio/271.mp3,country,5.350509166717529,3.980825424194336,red
+4bARASJEokNacSYtEhoNBp,Parker McCollum,Burn It Down - Radio Edit,spotify_audio/272.mp3,country,5.009674072265625,5.675748825073242,red
+2z5t8IRRtt5vwkSzP9umJo,Ashley Cooke,your place,spotify_audio/273.mp3,country,5.2999348640441895,4.883727073669434,red
+5owS9iWWGd6mDlFjUFzBsw,Conner Smith,Creek Will Rise,spotify_audio/274.mp3,country,6.194333076477051,7.720382213592529,blue
+2d3KkBpDlOCLT5Wlhrwhfd,Larry Fleet,Things I Take For Granted,spotify_audio/275.mp3,country,4.9191179275512695,4.533965110778809,red
+0hQyFpC8af9Dj89fEYkXPG,Alana Springsteen,ghost in my guitar (feat. Chris Stapleton),spotify_audio/276.mp3,country,5.635237216949463,6.36085844039917,blue
+1UlwFwRrb4Kth3TwnjBAJV,Ella Langley,Country Boy's Dream Girl,spotify_audio/277.mp3,country,4.749696731567383,5.685370445251465,red
+1pmBuw9a3r467tlzVZj0P4,Mitchell Tenpenny,Bigger Mistakes,spotify_audio/278.mp3,country,4.240426063537598,5.858698844909668,red
+7BH39iq4k2366YgJgbf8b4,Avery Anna,I Will (When You Do),spotify_audio/279.mp3,country,4.849152088165283,5.215554714202881,red
+6LaW2p9BxzbSGefvoW8Y4T,Kameron Marlowe,Tennessee Don't Mind,spotify_audio/280.mp3,country,6.597687721252441,5.086185455322266,blue
+23bEisUvcSmIELLy4CMhkN,Jason Aldean,Let Your Boys Be Country,spotify_audio/281.mp3,country,4.80383825302124,5.668454170227051,red
+5XT8mK0cvCkx6Sx7Z7igmI,Randall King,Burns Like Her,spotify_audio/282.mp3,country,5.587434768676758,5.063443660736084,blue
+28dwWN6sZQGBSZuMdCbbQY,Graham Barham,BREAK IT IN A BAR,spotify_audio/283.mp3,country,5.694923400878906,4.56611967086792,blue
+1MCUz8U559nGEN377EHHaY,Chris Young,Young Love & Saturday Nights,spotify_audio/284.mp3,country,5.01734733581543,5.065013408660889,red
+10kDUCSM3OZ99MfMcRboZB,Anne Wilson,Rain In The Rearview,spotify_audio/285.mp3,country,5.092597007751465,6.469730377197266,green
+12qLkwjMVp1eTvHfjl2M5g,Lauren Watkins,Anybody But You,spotify_audio/286.mp3,country,4.713071823120117,5.365354537963867,red
+11VDLa4XbXDIPC6rxbpAy1,Michael Warren,Another Round,spotify_audio/287.mp3,country,4.4861249923706055,6.4793701171875,green
+0Jagf5iAYYiWAs0BEoWbWZ,Kenny Chesney,Take Her Home,spotify_audio/288.mp3,country,4.707973003387451,5.105568885803223,red
+7gbGedaqoNVDJ8JU79AGgX,Charles Wesley Godwin,All Again,spotify_audio/289.mp3,country,4.058464050292969,5.359745025634766,red
+4usnf7irdy9PrVsmb82BXI,Matt Stell,Breakin' in Boots,spotify_audio/290.mp3,country,5.54135799407959,4.6273112297058105,blue
+6tNQ70jh4OwmPGpYy6R2o9,Benson Boone,Beautiful Things,spotify_audio/291.mp3,pop,4.347445011138916,5.794068813323975,red
+3rUGC1vUpkDG9CZFHMur1t,Tate McRae,greedy,spotify_audio/292.mp3,pop,5.717628479003906,7.740262031555176,green
+1BxfuPKGuaTgP7aM0Bbdwr,Taylor Swift,Cruel Summer,spotify_audio/293.mp3,pop,5.411306858062744,6.224459648132324,blue
+3vkCueOmm7xQDoJ17W1Pm3,Mitski,My Love Mine All Mine,spotify_audio/294.mp3,pop,3.393953561782837,4.539831161499023,red
+0R6NfOiLzLj4O5VbYSJAjf,Xavi,La Diabla,spotify_audio/295.mp3,pop,6.275454521179199,7.074288368225098,blue
+0mflMxspEfB0VbI1kyLiAv,Noah Kahan,Stick Season,spotify_audio/296.mp3,pop,4.437492370605469,5.071565628051758,red
+4xhsWYTOGcal8zt0J161CU,Jack Harlow,Lovin On Me,spotify_audio/297.mp3,pop,6.480711936950684,6.473320960998535,blue
+7CyPwkp0oE8Ro9Dd5CUDjW,The Weeknd,"One Of The Girls (with JENNIE, Lily Rose Depp)",spotify_audio/298.mp3,pop,4.410567283630371,4.879252910614014,red
+7gaA3wERFkFkgivjwbSvkG,Ariana Grande,"yes, and?",spotify_audio/299.mp3,rock,4.6474609375,4.245584487915039,red
+5mjYQaktjmjcMKcUIcqz4s,Kenya Grace,Strangers,spotify_audio/300.mp3,pop,5.275442123413086,3.8237693309783936,red
+6XaJfhwof7qIgbbXO5tIQI,Kali Uchis,Igual Que Un Ángel (with Peso Pluma),spotify_audio/301.mp3,pop,4.763060092926025,3.378063201904297,red
+4OMJGnvZfDvsePyCwRGO7X,Dua Lipa,Houdini,spotify_audio/302.mp3,pop,5.911014556884766,5.955716133117676,blue
+7DSAEUvxU8FajXtRloy8M0,Miley Cyrus,Flowers,spotify_audio/303.mp3,pop,4.558612823486328,5.7442755699157715,red
+3h5TiWTqGxjSjFrbruPFH9,YG Marley,Praise Jah In The Moonlight,spotify_audio/304.mp3,pop,5.3474321365356445,6.746914863586426,green
+2KslE17cAJNHTsI2MI0jb2,Jung Kook,Standing Next to You,spotify_audio/305.mp3,pop,5.1392340660095215,4.984918594360352,red
+17phhZDn6oGtzMe56NuWvj,Teddy Swims,Lose Control,spotify_audio/306.mp3,pop,5.067747116088867,5.674346923828125,red
+5aIVCx5tnk0ntmdiinnYvw,Tyla,Water,spotify_audio/307.mp3,pop,5.2273101806640625,5.220597267150879,red
+4iZ4pt7kvcaH6Yo8UoZ4s2,SZA,Snooze,spotify_audio/308.mp3,pop,5.578945159912109,5.432562351226807,blue
+1kuGVB7EU95pJObxwvfwKS,Olivia Rodrigo,vampire,spotify_audio/309.mp3,pop,4.0305986404418945,4.26828670501709,red
+6wf7Yu7cxBSPrRlWeSeK0Q,Billie Eilish,"What Was I Made For? [From The Motion Picture ""Barbie""]",spotify_audio/310.mp3,pop,4.530285835266113,4.487315654754639,red
+7iUtQNMRB8ZkKC4AmEuCJC,Myke Towers,LA FALDA,spotify_audio/311.mp3,pop,5.69356632232666,5.303167343139648,blue
+1odExI7RdWc4BT515LTAwj,David Kushner,Daylight,spotify_audio/312.mp3,pop,4.210200309753418,3.815065622329712,red
+1yeB8MUNeLo9Ek1UEpsyz6,Drake,Rich Baby Daddy (feat. Sexyy Red & SZA),spotify_audio/313.mp3,pop,5.305574893951416,5.337673664093018,red
+2Zo1PcszsT9WQ0ANntJbID,Sabrina Carpenter,Feather,spotify_audio/314.mp3,pop,4.966461181640625,5.056964874267578,red
+1udwFobQ1JoOdWPQrp2b6u,JID,Surround Sound (feat. 21 Savage & Baby Tate),spotify_audio/315.mp3,pop,4.9259233474731445,5.538260459899902,red
+6uTPdRrEDeH8Fyg5L5qmeU,Flo Milli,Never Lose Me,spotify_audio/316.mp3,pop,5.548702239990234,5.699433326721191,blue
+2IGMVunIBsBLtEQyoI1Mu7,Doja Cat,Paint The Town Red,spotify_audio/317.mp3,pop,3.9874610900878906,3.5493059158325195,red
+3qhlB30KknSejmIvZZLjOD,Djo,End of Beginning,spotify_audio/318.mp3,pop,4.923272132873535,7.0578789710998535,green
+1vYXt7VSjH9JIM5oRRo7vA,Dua Lipa,Dance The Night - From Barbie The Album,spotify_audio/319.mp3,pop,5.225390434265137,4.398872375488281,red
+6Qb7YsAqH4wWFUMbGsCpap,Dua Lipa,Training Season,spotify_audio/320.mp3,pop,5.658515453338623,5.540410995483398,blue
+4E63weMCaNZuGPEFMnuEi8,Tate McRae,exes,spotify_audio/321.mp3,pop,5.744634628295898,5.235550880432129,blue
+1Iq8oo9XkmmvCQiGOfORiz,Taylor Swift,Is It Over Now? (Taylor's Version) (From The Vault),spotify_audio/322.mp3,pop,3.8158063888549805,5.272578239440918,red
+0LMwmV37RCmBO2so0szAFs,Kygo,Whatever,spotify_audio/323.mp3,pop,3.728172779083252,5.401829719543457,red
+4UkUxO2WlKLc0Q1iEutGGh,KAROL G,CONTIGO (with Tiësto),spotify_audio/324.mp3,pop,4.983178615570068,3.601375102996826,red
+7dJYggqjKo71KI9sLzqCs8,Doja Cat,Agora Hills,spotify_audio/325.mp3,pop,4.265326499938965,6.258154392242432,green
+3Pbp7cUCx4d3OAkZSCoNvn,Michael Marcagi,Scared To Start,spotify_audio/326.mp3,pop,4.6905694007873535,5.19882869720459,red
+1bjeWoagtHmUKputLVyDxQ,SZA,Saturn,spotify_audio/327.mp3,pop,4.647852420806885,6.176538944244385,red
+0WtM2NBVQNNJLh6scP13H8,Rema,Calm Down (with Selena Gomez),spotify_audio/328.mp3,pop,5.733758926391602,4.713415145874023,blue
+7x9aauaA9cu6tyfpHnqDLo,Jung Kook,Seven (feat. Latto),spotify_audio/329.mp3,pop,4.937589645385742,4.490738391876221,red
+0WIv5qV41y6YjjB9V1biuC,Muni Long,Made For Me,spotify_audio/330.mp3,pop,4.220086097717285,3.8368263244628906,red
+0QosomGFiJYOxj2ViZfqng,Justin Timberlake,Selfish,spotify_audio/331.mp3,pop,5.073915481567383,6.283631324768066,green
+48vIfHaK7by6x0T6ucpODL,Madison Beer,Make You Mine,spotify_audio/332.mp3,pop,4.726972579956055,5.672248840332031,red
+,Etta James,I'd Rather Go Blind,spotify_audio/333.mp3,blues,5.623597145080566,5.793302536010742,blue
+1a2iF9XymafjRk56q7oCxo,Stevie Ray Vaughan,Pride and Joy,spotify_audio/334.mp3,blues,5.117448806762695,7.293553352355957,green
+4NQfrmGs9iQXVQI9IpRhjM,B.B. King,The Thrill Is Gone,spotify_audio/335.mp3,blues,4.60558557510376,5.219883918762207,red
+2HUZVffVPXvqnrml0gXggp,Howlin' Wolf,Smokestack Lightnin',spotify_audio/336.mp3,blues,4.954301834106445,4.825809478759766,red
+2Mr1bGI2E10K7Mt1UJZ6Mw,John Lee Hooker,Boom Boom,spotify_audio/337.mp3,blues,4.716894149780273,6.125627517700195,red
+4KMXlzvtC8xjLseDqDjpeU,Little Walter,My Babe,spotify_audio/338.mp3,blues,5.3710808753967285,4.996554374694824,blue
+3XxBSvDZKH5YvZZjTpn6eR,Jimi Hendrix,Red House,spotify_audio/339.mp3,rock,4.626235485076904,5.134942054748535,red
+3ocm1Cf1Dk1ODrdBdybh82,Albert King,Born Under A Bad Sign - Mono Mix,spotify_audio/340.mp3,blues,5.694845676422119,7.130614280700684,green
+2wnjZXcAT3rCjjqxLeHjv7,Freddie King,Going Down,spotify_audio/341.mp3,blues,5.847712993621826,7.574546813964844,green
+760clbeDBWmBsBLbszWuNZ,Bo Diddley,I'm A Man,spotify_audio/342.mp3,blues,4.482797622680664,6.045820236206055,red
+5Oc0vLGWdEWeCqIU8zyELt,Big Mama Thornton,Hound Dog,spotify_audio/343.mp3,blues,5.231925964355469,6.12192440032959,blue
+5MTsZG10E0hTvAkdioyPnw,Buddy Guy,Feels Like Rain (feat. Bonnie Raitt),spotify_audio/344.mp3,blues,4.473155498504639,3.9847822189331055,red
+5x7Oxaa9EEIx9nw17CC5yW,B.B. King,Chains And Things,spotify_audio/345.mp3,blues,4.070159435272217,5.403426170349121,red
+5MVMARaMoclifNmBtPu0dD,Stevie Ray Vaughan,Love Struck Baby,spotify_audio/346.mp3,blues,3.9701733589172363,4.387327671051025,red
+2ROJOb98GorxStuOuZWcGd,Derek & The Dominos,Have You Ever Loved A Woman?,spotify_audio/347.mp3,blues,5.0639190673828125,5.828774452209473,red
+3CBV8LLmD6YACpUR6P85Di,Fenton Robinson,Somebody Loan Me A Dime - Remastered,spotify_audio/348.mp3,blues,6.013598442077637,6.510560035705566,blue
+6kucNn22HB0qb2ZPa1BrNl,Albert Collins,"Cold, Cold Feeling",spotify_audio/349.mp3,blues,5.499752998352051,5.055211544036865,blue
+0h06YSqzwbAU9ZDuIvw8pk,Bonnie Raitt,Love Me Like a Man - 2008 Remaster,spotify_audio/350.mp3,blues,6.195695877075195,5.954301357269287,blue
+3E0VKSvZp76kvBU2WwwBul,Taj Mahal,Leaving Trunk,spotify_audio/351.mp3,blues,5.6826348304748535,7.410595893859863,green
+3YGsgJqtIWKjMjZtKLk11Z,Johnny Winter,Be Careful With a Fool,spotify_audio/352.mp3,blues,5.376145362854004,6.227797508239746,blue
+2FtX5tOFUVOyjcGQiuGR8f,Buddy Guy,"Damn Right, I've Got the Blues",spotify_audio/353.mp3,blues,5.027379989624023,4.071239948272705,red
+1yKah8BCP3Vgq2tPBOLKL0,Sam Maghett,All Your Love - Stereo,spotify_audio/354.mp3,blues,4.7475457191467285,5.7322258949279785,red
+2bIfM0ZOF4gxK1BeqH3Djm,B.B. King,Why I Sing The Blues,spotify_audio/355.mp3,blues,5.813570022583008,6.805999755859375,blue
+6f3OYG5R630tjwFIHIE7j2,The Fabulous Thunderbirds,Scratch My Back,spotify_audio/356.mp3,blues,5.014815330505371,8.117467880249023,green
+1BwbJMvSMnZgSCuzw1XkDL,Freddie King,I'm Tore Down,spotify_audio/357.mp3,blues,5.898061275482178,6.885734558105469,blue
+6PUabSMXmPnZna361Wwmf7,Cream,Crossroads - Live,spotify_audio/358.mp3,blues,6.004379749298096,5.971701622009277,blue
+1cRTAPP2FG9h2WiYMOIVIK,Elmore James,The Sky Is Crying,spotify_audio/359.mp3,blues,4.4700727462768555,7.547679901123047,green
+4Ra0IrmzAPudI6QMvNF8cg,John Lee Hooker,Boogie Chillen',spotify_audio/360.mp3,blues,5.686978340148926,5.997237205505371,blue
+1HRx7dciQYCv76XvbBDAGM,Albert Collins,T-Bone Shuffle,spotify_audio/361.mp3,blues,5.393102645874023,7.302395343780518,green
+,Champion Jack Dupree,Junker's Blues,spotify_audio/362.mp3,blues,3.9291977882385254,6.752665042877197,green
+1TRIYxcVJYPki5AX2hZzZT,Luther Allison,Bad News Is Coming,spotify_audio/363.mp3,blues,6.035901069641113,5.790033340454102,blue
+0RTjFVHvqjTdpX2NawwyXI,Freddie King,Stumble,spotify_audio/364.mp3,blues,5.154626846313477,6.999356746673584,green
+1cXc92MX9kFjMrrDsvdf9w,Koko Taylor,Wang Dang Doodle,spotify_audio/365.mp3,blues,4.610387325286865,4.3011908531188965,red
+0WvSYVnEXD7QLa5pDJ920S,Albert King,Crosscut Saw - Mono Mix,spotify_audio/366.mp3,blues,5.577729225158691,6.549598217010498,blue
+36ccrof5DFicLrejE4hEye,Jimmy Rogers,Walking By Myself,spotify_audio/367.mp3,blues,5.746473789215088,6.014299392700195,blue
+3gg0xEc2b4eEbYySLmfFU1,T-Bone Walker,Mean Old World,spotify_audio/368.mp3,blues,4.6591033935546875,6.167844295501709,red
+7eVr2GN82f4tJQ8qj4vtju,Allman Brothers Band,Trouble No More,spotify_audio/369.mp3,blues,6.1604390144348145,5.550043106079102,blue
+2PcbVKT28p9mOlWBDL371J,Willie Dixon,I Can't Quit You Baby,spotify_audio/370.mp3,blues,3.8171699047088623,5.222559452056885,red
+2r6Ve8kNEzqg3u45UL0muX,Professor Longhair,Big Chief - Remastered,spotify_audio/371.mp3,blues,6.2195563316345215,7.29413366317749,blue
+0FlwhvrncUKrEAhzunmCKm,Noah Kahan,Forever,spotify_audio/372.mp3,pop,3.718846559524536,4.521439075469971,red
+2EBtLxQSV8EHpk4gHoMnl3,Lizzy McAlpine,Older,spotify_audio/373.mp3,pop,3.491753578186035,3.6238861083984375,red
+,Maggie Rogers,Don't Forget Me,spotify_audio/374.mp3,pop,5.906122207641602,4.889218807220459,blue
+2hPGwgrohMaMbEvjtNrw0G,Wyatt Flores,Milwaukee,spotify_audio/375.mp3,rock,4.234611511230469,5.141992568969727,red
+3UrmjZcjcYP3zFUdfWOy46,Myles Smith,River,spotify_audio/376.mp3,blues,4.205414772033691,5.421820640563965,red
+2TpHdNgZWRCqmZ2iPG90fJ,Tom Odell,Loving You Will Be The Death Of Me,spotify_audio/377.mp3,pop,5.7472734451293945,4.682651996612549,blue
+27RDQ0TfxzWMlQFuKrPT11,Kacey Musgraves,Too Good to be True,spotify_audio/378.mp3,country,4.231239318847656,4.0365376472473145,red
+0DkZi0It78PGI6Nn7toKwR,Michael Marcagi,In The Light,spotify_audio/379.mp3,pop,4.115365505218506,4.153675556182861,red
+55BCpfZp7sVgGBzBlGW5f0,Hermanos Gutiérrez,Sonido Cósmico,spotify_audio/380.mp3,blues,4.184499740600586,5.430273056030273,red
+7areyJPur83YJOJLhvSXvH,Matt Maltese,Philadelphia (with Searows),spotify_audio/381.mp3,pop,3.6296207904815674,4.594204425811768,red
+5v6Jj76nTkyTTvZ70NSUVJ,RY X,All I Have,spotify_audio/382.mp3,pop,3.2600977420806885,3.631831645965576,red
+2PYYrrfX6tG8rGW4WHzs6P,SYML,The Walker,spotify_audio/383.mp3,pop,4.0090718269348145,3.095834255218506,red
+2RMgDzKU002S6IcwWwG9i1,Richy Mitch & The Coal Miners,Northstar,spotify_audio/384.mp3,rock,4.591118812561035,6.1420207023620605,red
+0QrzN1zybGPr27X6NAkUH6,Wild Rivers,Everywhere I Go,spotify_audio/385.mp3,pop,4.491998195648193,3.560270309448242,red
+4TaRFbSPV4xhtRVPLs7BO7,Brenn!,Revival,spotify_audio/386.mp3,rock,3.893488883972168,4.774042129516602,red
+5dQ6k002CdfiBXVtjA93ra,Darren Kiely,Slow Decay,spotify_audio/387.mp3,rock,4.218851089477539,4.776143550872803,red
+0jHnEevYYvE7B2YJoBwz1S,Henrik,Liar,spotify_audio/388.mp3,hiphop,4.6309356689453125,6.495206832885742,green
+4f7tq7M9gHrh9fykTSDU6J,Medium Build,Crying Over U,spotify_audio/389.mp3,pop,4.782832622528076,6.397573471069336,green
+0OoubLzXym5JYNHL7PSAHu,Nep,Cottontail,spotify_audio/390.mp3,hiphop,5.505487442016602,4.867861747741699,blue
+3BOU0eJQjfmhbZsQ76OJi9,Iron & Wine,You Never Know,spotify_audio/391.mp3,rock,3.7350428104400635,3.9004929065704346,red
+5ZBjVFfYDwj3TeIfDHLWLN,Beth Gibbons,Floating On A Moment,spotify_audio/392.mp3,disco,4.343910217285156,4.205184459686279,red
+6OqMuD7b1gNBpH3gkBfmmx,The Revivalists,Good Old Days,spotify_audio/393.mp3,rock,4.98043155670166,6.861891269683838,green
+2WjEUnzuDhwlFpp9epgtrW,Faye Webster,Underdressed at the Symphony,spotify_audio/394.mp3,pop,5.5237884521484375,5.246059417724609,blue
+41FgxEQPfzOWhyzb3vSmKi,Sierra Ferrell,I Could Drive You Crazy,spotify_audio/395.mp3,country,4.610561370849609,4.908762454986572,red
+4Bbk6rpr4SWdt82cG8XN40,Anna Graves,Made To Love Someone,spotify_audio/396.mp3,pop,4.189400672912598,3.5977911949157715,red
+1Patip73Sq1xQw7GGwSFtw,Briston Maroney,I Told You So,spotify_audio/397.mp3,rock,4.976751327514648,4.6318864822387695,red
+11N3xwyjdDK8WAWnkvYZO2,Dylan Gossett,Somewhere Between,spotify_audio/398.mp3,country,4.464056491851807,3.935840129852295,red
+1Xzyo31tkXB53PaRnPziLR,The Decemberists,Burial Ground,spotify_audio/399.mp3,rock,5.45085334777832,5.29216194152832,blue
+3aJrUfPxOANdzY1weAqrgH,Jessica Pratt,Life Is,spotify_audio/400.mp3,pop,4.83546257019043,5.969854831695557,red
+1t4vCc1Bbg5ey7OZ9NctbQ,Josiah and the Bonnevilles,Lithuania,spotify_audio/401.mp3,rock,4.3989996910095215,4.28602409362793,red
+09eN4wtRH0cAAHQHAbOjvQ,Medium Build,Cutting Thru The Country,spotify_audio/402.mp3,pop,4.342747211456299,4.050815582275391,red
+5Ey48y8f4IuIz80lclnkKT,Sons Of The East,Wish I Knew,spotify_audio/403.mp3,pop,5.307692527770996,4.8190460205078125,red
+42QabY91Nr6his3sC4eWcu,Drew Holcomb,Brick by Brick,spotify_audio/404.mp3,pop,4.11101770401001,4.238873481750488,red
+5mH3NdJZnMfoFUSk2LgdGL,James Vincent McMorrow,Stay cool,spotify_audio/405.mp3,pop,4.4018425941467285,5.161905765533447,red
+6rL5LuizsxMMSlpoIinl0B,Drew Holcomb,We Can Go Dancing,spotify_audio/406.mp3,pop,4.347732067108154,5.394237041473389,red
+4LbT4vgs0uYQHT3NZn9GD1,Hurray For The Riff Raff,Hawkmoon,spotify_audio/407.mp3,pop,5.116564750671387,7.602878570556641,green
+0QT4IfEZnZOmiSnYw0eabI,James Vincent McMorrow,Never gone,spotify_audio/408.mp3,pop,4.503090858459473,4.499869346618652,red
+434io34sIbKCD3KzuoJCg5,Hollow Coves,Nothing to Lose,spotify_audio/409.mp3,pop,5.009618282318115,6.246784210205078,red
+26nb8UvZLmzQgwCOXBGTtf,Bonny Light Horseman,When I Was Younger,spotify_audio/410.mp3,pop,3.871755361557007,5.022914409637451,red
+2L0lffL9iJypY0PDGEg169,Bo Staloch,Your Eyes Tell Stories,spotify_audio/411.mp3,pop,3.9188761711120605,4.772536277770996,red
+3g3WLQLqNNLyzCY7rBZup7,Babehoven,Birdseye,spotify_audio/412.mp3,pop,4.173305988311768,5.040678024291992,red
+3YSpKYKvlryivvDwY26K3r,slimdan,Drank on Accutane,spotify_audio/413.mp3,country,5.268930435180664,4.745970249176025,red
