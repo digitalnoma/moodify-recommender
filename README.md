@@ -28,8 +28,9 @@ pip install -r requirements.txt
 ```
 
 ### Step 4: Install Main Assets
-Download the [following asset files](https://www.dropbox.com/scl/fo/gdj3c7clw9egnjyt9iu36/AN_fm12u-WLkyOGWqWRm7Xo?rlkey=7v28k1ef6fvw0icu6t1070rb4&dl=0) (and unzip spotify_audio)
-Add all downloaded assets into main/parent directory
+Download the [following asset files](https://www.dropbox.com/scl/fo/gdj3c7clw9egnjyt9iu36/AN_fm12u-WLkyOGWqWRm7Xo?rlkey=7v28k1ef6fvw0icu6t1070rb4&dl=0) (and unzip spotify_audio)  
+Add all downloaded assets into main/parent directory  
+EXCEPT "Numb.mp3", the sample audio to drag-n-drop into the audio uploader when running the app
 
 ### Step 5: Run the Application
 Finally, launch the application using Streamlit:
