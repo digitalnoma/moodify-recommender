@@ -1,9 +1,12 @@
-# Moodify Web App
+<div align="center">
+# :headphones: Moodify
+[Live Demo]() | [Paper]()
+</div>
 
 ## Overview
 Moodify is a web-based application designed to analyze audio files to detect the mood conveyed by the music and predict its genre. Utilizing advanced machine learning models, Moodify extracts audio features and classifies them into predefined categories of emotions and musical genres, providing a user-friendly interface for uploading audio, visualizing emotion through a valence-arousal plot, and identifying the music genre.
 
-## Local Deployment
+## Quickstart Guide: Local Deployment
 
 ### Step 1: Clone the Repository
 To get started with Moodify locally, clone the repository to your machine using the following Git command:
