@@ -1,0 +1,4 @@
+*.pth
+*.mp3
+env/
+spotify_audio/
