@@ -79,7 +79,7 @@ class Line:
         fig.update_layout(
             xaxis_title='Valence',
             yaxis_title='Arousal',
-            title='Valence-Arousal Graph'
+            title='Valence-Arousal Graph: Hover over each point for VA score and Track Title'
         )
 
         # print("--- Closest tracks to trajectory ---")
@@ -157,7 +157,7 @@ class Circle:
         fig.update_layout(
             xaxis_title='Valence',
             yaxis_title='Arousal',
-            title='Valence-Arousal Graph')
+            title='Valence-Arousal Graph: Hover over each point for VA score and Track Title')
         
         # print("--- Closest tracks to trajectory ---")
         # print(f"{1}: {input['track'].values[0]}")
@@ -227,7 +227,7 @@ class Triangle:
         fig.update_layout(
             xaxis_title='Valence',
             yaxis_title='Arousal',
-            title='Valence-Arousal Graph')
+            title='Valence-Arousal Graph: Hover over each point for VA score and Track Title')
 
         # print("--- Closest tracks to trajectory ---")
         # print(f"{1}: {input['track'].values[0]}")
@@ -294,7 +294,7 @@ class Parabola:
         fig.update_layout(
             xaxis_title='Valence',
             yaxis_title='Arousal',
-            title='Valence-Arousal Graph')
+            title='Valence-Arousal Graph: Hover over each point for VA score and Track Title')
         
         return fig
 
